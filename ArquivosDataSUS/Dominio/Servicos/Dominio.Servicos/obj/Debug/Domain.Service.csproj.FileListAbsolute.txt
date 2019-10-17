@@ -1,0 +1,44 @@
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.dll.config
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Core.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Windsor.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Core.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Windsor.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Debug\Domain.Service.pdb

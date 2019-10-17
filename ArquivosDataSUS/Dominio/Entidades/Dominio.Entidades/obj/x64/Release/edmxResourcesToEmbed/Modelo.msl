@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_ARQUIVOS_DATASUSModelStoreContainer" CdmEntityContainer="DB_ARQUIVOS_DATASUSEntities">
+    <EntitySetMapping Name="EstadoUFs">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.EstadoUF">
+        <MappingFragment StoreEntitySet="EstadoUF">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoArquivoes">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.TipoArquivo">
+        <MappingFragment StoreEntitySet="TipoArquivo">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogErroAplicacaos">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.LogErroAplicacao">
+        <MappingFragment StoreEntitySet="LogErroAplicacao">
+          <ScalarProperty Name="CodExcecao" ColumnName="CodExcecao" />
+          <ScalarProperty Name="Excecao" ColumnName="Excecao" />
+          <ScalarProperty Name="Origem" ColumnName="Origem" />
+          <ScalarProperty Name="Mensagem" ColumnName="Mensagem" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ArquivosRDs">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.ArquivosRD">
+        <MappingFragment StoreEntitySet="ArquivosRD">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="val_sp_ges" ColumnName="val_sp_ges" />
+          <ScalarProperty Name="val_sh_ges" ColumnName="val_sh_ges" />
+          <ScalarProperty Name="val_sp_fed" ColumnName="val_sp_fed" />
+          <ScalarProperty Name="val_sh_fed" ColumnName="val_sh_fed" />
+          <ScalarProperty Name="sis_just" ColumnName="sis_just" />
+          <ScalarProperty Name="aud_just" ColumnName="aud_just" />
+          <ScalarProperty Name="remessa" ColumnName="remessa" />
+          <ScalarProperty Name="sequencia" ColumnName="sequencia" />
+          <ScalarProperty Name="etnia" ColumnName="etnia" />
+          <ScalarProperty Name="raca_cor" ColumnName="raca_cor" />
+          <ScalarProperty Name="regct" ColumnName="regct" />
+          <ScalarProperty Name="faec_tp" ColumnName="faec_tp" />
+          <ScalarProperty Name="financ" ColumnName="financ" />
+          <ScalarProperty Name="complex" ColumnName="complex" />
+          <ScalarProperty Name="cid_morte" ColumnName="cid_morte" />
+          <ScalarProperty Name="cid_asso" ColumnName="cid_asso" />
+          <ScalarProperty Name="infehosp" ColumnName="infehosp" />
+          <ScalarProperty Name="cnpj_mant" ColumnName="cnpj_mant" />
+          <ScalarProperty Name="cnes" ColumnName="cnes" />
+          <ScalarProperty Name="gestor_dt" ColumnName="gestor_dt" />
+          <ScalarProperty Name="gestor_cpf" ColumnName="gestor_cpf" />
+          <ScalarProperty Name="gestor_tp" ColumnName="gestor_tp" />
+          <ScalarProperty Name="gestor_cod" ColumnName="gestor_cod" />
+          <ScalarProperty Name="vincprev" ColumnName="vincprev" />
+          <ScalarProperty Name="cnaer" ColumnName="cnaer" />
+          <ScalarProperty Name="cbor" ColumnName="cbor" />
+          <ScalarProperty Name="seq_aih5" ColumnName="seq_aih5" />
+          <ScalarProperty Name="insc_pn" ColumnName="insc_pn" />
+          <ScalarProperty Name="gestrisco" ColumnName="gestrisco" />
+          <ScalarProperty Name="contracep2" ColumnName="contracep2" />
+          <ScalarProperty Name="contracep1" ColumnName="contracep1" />
+          <ScalarProperty Name="cid_notif" ColumnName="cid_notif" />
+          <ScalarProperty Name="instru" ColumnName="instru" />
+          <ScalarProperty Name="num_filhos" ColumnName="num_filhos" />
+          <ScalarProperty Name="homonimo" ColumnName="homonimo" />
+          <ScalarProperty Name="cpf_aut" ColumnName="cpf_aut" />
+          <ScalarProperty Name="tot_pt_sp" ColumnName="tot_pt_sp" />
+          <ScalarProperty Name="car_int" ColumnName="car_int" />
+          <ScalarProperty Name="num_proc" ColumnName="num_proc" />
+          <ScalarProperty Name="nacional" ColumnName="nacional" />
+          <ScalarProperty Name="morte" ColumnName="morte" />
+          <ScalarProperty Name="dias_perm" ColumnName="dias_perm" />
+          <ScalarProperty Name="idade" ColumnName="idade" />
+          <ScalarProperty Name="cod_idade" ColumnName="cod_idade" />
+          <ScalarProperty Name="munic_mov" ColumnName="munic_mov" />
+          <ScalarProperty Name="ind_vdrl" ColumnName="ind_vdrl" />
+          <ScalarProperty Name="rubrica" ColumnName="rubrica" />
+          <ScalarProperty Name="gestao" ColumnName="gestao" />
+          <ScalarProperty Name="nat_jur" ColumnName="nat_jur" />
+          <ScalarProperty Name="natureza" ColumnName="natureza" />
+          <ScalarProperty Name="cobranca" ColumnName="cobranca" />
+          <ScalarProperty Name="diag_secun" ColumnName="diag_secun" />
+          <ScalarProperty Name="diag_princ" ColumnName="diag_princ" />
+          <ScalarProperty Name="dt_saida" ColumnName="dt_saida" />
+          <ScalarProperty Name="dt_inter" ColumnName="dt_inter" />
+          <ScalarProperty Name="us_tot" ColumnName="us_tot" />
+          <ScalarProperty Name="val_uti" ColumnName="val_uti" />
+          <ScalarProperty Name="val_tot" ColumnName="val_tot" />
+          <ScalarProperty Name="val_ped1ac" ColumnName="val_ped1ac" />
+          <ScalarProperty Name="val_obsang" ColumnName="val_obsang" />
+          <ScalarProperty Name="val_transp" ColumnName="val_transp" />
+          <ScalarProperty Name="val_sadtsr" ColumnName="val_sadtsr" />
+          <ScalarProperty Name="val_sangue" ColumnName="val_sangue" />
+          <ScalarProperty Name="val_ortp" ColumnName="val_ortp" />
+          <ScalarProperty Name="val_acomp" ColumnName="val_acomp" />
+          <ScalarProperty Name="val_rn" ColumnName="val_rn" />
+          <ScalarProperty Name="val_sadt" ColumnName="val_sadt" />
+          <ScalarProperty Name="val_sp" ColumnName="val_sp" />
+          <ScalarProperty Name="val_sh" ColumnName="val_sh" />
+          <ScalarProperty Name="proc_rea" ColumnName="proc_rea" />
+          <ScalarProperty Name="proc_solic" ColumnName="proc_solic" />
+          <ScalarProperty Name="qt_diarias" ColumnName="qt_diarias" />
+          <ScalarProperty Name="diar_acom" ColumnName="diar_acom" />
+          <ScalarProperty Name="uti_int_to" ColumnName="uti_int_to" />
+          <ScalarProperty Name="uti_int_al" ColumnName="uti_int_al" />
+          <ScalarProperty Name="uti_int_an" ColumnName="uti_int_an" />
+          <ScalarProperty Name="uti_int_in" ColumnName="uti_int_in" />
+          <ScalarProperty Name="marca_uti" ColumnName="marca_uti" />
+          <ScalarProperty Name="uti_mes_to" ColumnName="uti_mes_to" />
+          <ScalarProperty Name="uti_mes_al" ColumnName="uti_mes_al" />
+          <ScalarProperty Name="uti_mes_an" ColumnName="uti_mes_an" />
+          <ScalarProperty Name="uti_mes_in" ColumnName="uti_mes_in" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="nasc" ColumnName="nasc" />
+          <ScalarProperty Name="munic_res" ColumnName="munic_res" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="ident" ColumnName="ident" />
+          <ScalarProperty Name="n_aih" ColumnName="n_aih" />
+          <ScalarProperty Name="cgc_hosp" ColumnName="cgc_hosp" />
+          <ScalarProperty Name="espec" ColumnName="espec" />
+          <ScalarProperty Name="mes_cmpt" ColumnName="mes_cmpt" />
+          <ScalarProperty Name="ano_cmpt" ColumnName="ano_cmpt" />
+          <ScalarProperty Name="uf_zi" ColumnName="uf_zi" />
+          <ScalarProperty Name="nm_arquivo" ColumnName="nm_arquivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ArquivosRJs">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.ArquivosRJ">
+        <MappingFragment StoreEntitySet="ArquivosRJ">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="remessa" ColumnName="remessa" />
+          <ScalarProperty Name="sequencia" ColumnName="sequencia" />
+          <ScalarProperty Name="st_mot_blo" ColumnName="st_mot_blo" />
+          <ScalarProperty Name="st_bloq" ColumnName="st_bloq" />
+          <ScalarProperty Name="st_situac" ColumnName="st_situac" />
+          <ScalarProperty Name="etnia" ColumnName="etnia" />
+          <ScalarProperty Name="raca_cor" ColumnName="raca_cor" />
+          <ScalarProperty Name="regct" ColumnName="regct" />
+          <ScalarProperty Name="faec_tp" ColumnName="faec_tp" />
+          <ScalarProperty Name="financ" ColumnName="financ" />
+          <ScalarProperty Name="complex" ColumnName="complex" />
+          <ScalarProperty Name="cid_morte" ColumnName="cid_morte" />
+          <ScalarProperty Name="cid_asso" ColumnName="cid_asso" />
+          <ScalarProperty Name="infehosp" ColumnName="infehosp" />
+          <ScalarProperty Name="cnpj_mant" ColumnName="cnpj_mant" />
+          <ScalarProperty Name="cnes" ColumnName="cnes" />
+          <ScalarProperty Name="gestor_dt" ColumnName="gestor_dt" />
+          <ScalarProperty Name="gestor_cpf" ColumnName="gestor_cpf" />
+          <ScalarProperty Name="gestor_tp" ColumnName="gestor_tp" />
+          <ScalarProperty Name="gestor_cod" ColumnName="gestor_cod" />
+          <ScalarProperty Name="vincprev" ColumnName="vincprev" />
+          <ScalarProperty Name="cnaer" ColumnName="cnaer" />
+          <ScalarProperty Name="cbor" ColumnName="cbor" />
+          <ScalarProperty Name="seq_aih5" ColumnName="seq_aih5" />
+          <ScalarProperty Name="insc_pn" ColumnName="insc_pn" />
+          <ScalarProperty Name="gestrisco" ColumnName="gestrisco" />
+          <ScalarProperty Name="contracep2" ColumnName="contracep2" />
+          <ScalarProperty Name="contracep1" ColumnName="contracep1" />
+          <ScalarProperty Name="cid_notif" ColumnName="cid_notif" />
+          <ScalarProperty Name="instru" ColumnName="instru" />
+          <ScalarProperty Name="num_filhos" ColumnName="num_filhos" />
+          <ScalarProperty Name="homonimo" ColumnName="homonimo" />
+          <ScalarProperty Name="cpf_aut" ColumnName="cpf_aut" />
+          <ScalarProperty Name="tot_pt_sp" ColumnName="tot_pt_sp" />
+          <ScalarProperty Name="car_int" ColumnName="car_int" />
+          <ScalarProperty Name="num_proc" ColumnName="num_proc" />
+          <ScalarProperty Name="nacional" ColumnName="nacional" />
+          <ScalarProperty Name="morte" ColumnName="morte" />
+          <ScalarProperty Name="dias_perm" ColumnName="dias_perm" />
+          <ScalarProperty Name="idade" ColumnName="idade" />
+          <ScalarProperty Name="cod_idade" ColumnName="cod_idade" />
+          <ScalarProperty Name="munic_mov" ColumnName="munic_mov" />
+          <ScalarProperty Name="ind_vdrl" ColumnName="ind_vdrl" />
+          <ScalarProperty Name="rubrica" ColumnName="rubrica" />
+          <ScalarProperty Name="gestao" ColumnName="gestao" />
+          <ScalarProperty Name="nat_jur" ColumnName="nat_jur" />
+          <ScalarProperty Name="natureza" ColumnName="natureza" />
+          <ScalarProperty Name="cobranca" ColumnName="cobranca" />
+          <ScalarProperty Name="diag_secun" ColumnName="diag_secun" />
+          <ScalarProperty Name="diag_princ" ColumnName="diag_princ" />
+          <ScalarProperty Name="dt_saida" ColumnName="dt_saida" />
+          <ScalarProperty Name="dt_inter" ColumnName="dt_inter" />
+          <ScalarProperty Name="us_tot" ColumnName="us_tot" />
+          <ScalarProperty Name="val_uti" ColumnName="val_uti" />
+          <ScalarProperty Name="val_tot" ColumnName="val_tot" />
+          <ScalarProperty Name="val_ped1ac" ColumnName="val_ped1ac" />
+          <ScalarProperty Name="val_obsang" ColumnName="val_obsang" />
+          <ScalarProperty Name="val_transp" ColumnName="val_transp" />
+          <ScalarProperty Name="val_sadtsr" ColumnName="val_sadtsr" />
+          <ScalarProperty Name="val_sangue" ColumnName="val_sangue" />
+          <ScalarProperty Name="val_ortp" ColumnName="val_ortp" />
+          <ScalarProperty Name="val_acomp" ColumnName="val_acomp" />
+          <ScalarProperty Name="val_rn" ColumnName="val_rn" />
+          <ScalarProperty Name="val_sadt" ColumnName="val_sadt" />
+          <ScalarProperty Name="val_sp" ColumnName="val_sp" />
+          <ScalarProperty Name="val_sh" ColumnName="val_sh" />
+          <ScalarProperty Name="proc_rea" ColumnName="proc_rea" />
+          <ScalarProperty Name="proc_solic" ColumnName="proc_solic" />
+          <ScalarProperty Name="qt_diarias" ColumnName="qt_diarias" />
+          <ScalarProperty Name="diar_acom" ColumnName="diar_acom" />
+          <ScalarProperty Name="uti_int_to" ColumnName="uti_int_to" />
+          <ScalarProperty Name="uti_int_al" ColumnName="uti_int_al" />
+          <ScalarProperty Name="uti_int_an" ColumnName="uti_int_an" />
+          <ScalarProperty Name="uti_int_in" ColumnName="uti_int_in" />
+          <ScalarProperty Name="marca_uti" ColumnName="marca_uti" />
+          <ScalarProperty Name="uti_mes_to" ColumnName="uti_mes_to" />
+          <ScalarProperty Name="uti_mes_al" ColumnName="uti_mes_al" />
+          <ScalarProperty Name="uti_mes_an" ColumnName="uti_mes_an" />
+          <ScalarProperty Name="uti_mes_in" ColumnName="uti_mes_in" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="nasc" ColumnName="nasc" />
+          <ScalarProperty Name="munic_res" ColumnName="munic_res" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="ident" ColumnName="ident" />
+          <ScalarProperty Name="n_aih" ColumnName="n_aih" />
+          <ScalarProperty Name="cgc_hosp" ColumnName="cgc_hosp" />
+          <ScalarProperty Name="espec" ColumnName="espec" />
+          <ScalarProperty Name="mes_cmpt" ColumnName="mes_cmpt" />
+          <ScalarProperty Name="ano_cmpt" ColumnName="ano_cmpt" />
+          <ScalarProperty Name="uf_zi" ColumnName="uf_zi" />
+          <ScalarProperty Name="nm_arquivo" ColumnName="nm_arquivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogErroArquivoes">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.LogErroArquivo">
+        <MappingFragment StoreEntitySet="LogErroArquivo">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="MsgErro" ColumnName="MsgErro" />
+          <ScalarProperty Name="LocalDestino" ColumnName="LocalDestino" />
+          <ScalarProperty Name="LocalDestinoDBF" ColumnName="LocalDestinoDBF" />
+          <ScalarProperty Name="TamanhoArquivo" ColumnName="TamanhoArquivo" />
+          <ScalarProperty Name="NomeArquivo" ColumnName="NomeArquivo" />
+          <ScalarProperty Name="DataErro" ColumnName="DataErro" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ArquivosPAs">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.ArquivosPA">
+        <MappingFragment StoreEntitySet="ArquivosPA">
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="pa_srv_c" ColumnName="pa_srv_c" />
+          <ScalarProperty Name="pa_vl_inc" ColumnName="pa_vl_inc" />
+          <ScalarProperty Name="pa_vl_cl" ColumnName="pa_vl_cl" />
+          <ScalarProperty Name="pa_vl_cf" ColumnName="pa_vl_cf" />
+          <ScalarProperty Name="pa_etnia" ColumnName="pa_etnia" />
+          <ScalarProperty Name="pa_fler" ColumnName="pa_fler" />
+          <ScalarProperty Name="pa_flqt" ColumnName="pa_flqt" />
+          <ScalarProperty Name="pa_codoco" ColumnName="pa_codoco" />
+          <ScalarProperty Name="pa_indica" ColumnName="pa_indica" />
+          <ScalarProperty Name="nu_pa_tot" ColumnName="nu_pa_tot" />
+          <ScalarProperty Name="nu_vpa_tot" ColumnName="nu_vpa_tot" />
+          <ScalarProperty Name="pa_dif_val" ColumnName="pa_dif_val" />
+          <ScalarProperty Name="pa_mndif" ColumnName="pa_mndif" />
+          <ScalarProperty Name="pa_ufdif" ColumnName="pa_ufdif" />
+          <ScalarProperty Name="pa_valapr" ColumnName="pa_valapr" />
+          <ScalarProperty Name="pa_valpro" ColumnName="pa_valpro" />
+          <ScalarProperty Name="pa_qtdapr" ColumnName="pa_qtdapr" />
+          <ScalarProperty Name="pa_qtdpro" ColumnName="pa_qtdpro" />
+          <ScalarProperty Name="pa_munpcn" ColumnName="pa_munpcn" />
+          <ScalarProperty Name="pa_racacor" ColumnName="pa_racacor" />
+          <ScalarProperty Name="pa_sexo" ColumnName="pa_sexo" />
+          <ScalarProperty Name="pa_flidade" ColumnName="pa_flidade" />
+          <ScalarProperty Name="idademax" ColumnName="idademax" />
+          <ScalarProperty Name="idademin" ColumnName="idademin" />
+          <ScalarProperty Name="pa_idade" ColumnName="pa_idade" />
+          <ScalarProperty Name="pa_catend" ColumnName="pa_catend" />
+          <ScalarProperty Name="pa_cidcas" ColumnName="pa_cidcas" />
+          <ScalarProperty Name="pa_cidsec" ColumnName="pa_cidsec" />
+          <ScalarProperty Name="pa_cidpri" ColumnName="pa_cidpri" />
+          <ScalarProperty Name="pa_transf" ColumnName="pa_transf" />
+          <ScalarProperty Name="pa_alta" ColumnName="pa_alta" />
+          <ScalarProperty Name="pa_perman" ColumnName="pa_perman" />
+          <ScalarProperty Name="pa_encerr" ColumnName="pa_encerr" />
+          <ScalarProperty Name="pa_obito" ColumnName="pa_obito" />
+          <ScalarProperty Name="pa_motsai" ColumnName="pa_motsai" />
+          <ScalarProperty Name="pa_cbocod" ColumnName="pa_cbocod" />
+          <ScalarProperty Name="pa_cnsmed" ColumnName="pa_cnsmed" />
+          <ScalarProperty Name="pa_autoriz" ColumnName="pa_autoriz" />
+          <ScalarProperty Name="pa_docorig" ColumnName="pa_docorig" />
+          <ScalarProperty Name="pa_nivcpl" ColumnName="pa_nivcpl" />
+          <ScalarProperty Name="pa_subfin" ColumnName="pa_subfin" />
+          <ScalarProperty Name="pa_tpfin" ColumnName="pa_tpfin" />
+          <ScalarProperty Name="pa_proc_id" ColumnName="pa_proc_id" />
+          <ScalarProperty Name="pa_cmp" ColumnName="pa_cmp" />
+          <ScalarProperty Name="pa_mvm" ColumnName="pa_mvm" />
+          <ScalarProperty Name="pa_cnpj_cc" ColumnName="pa_cnpj_cc" />
+          <ScalarProperty Name="pa_cnpjmnt" ColumnName="pa_cnpjmnt" />
+          <ScalarProperty Name="pa_cnpjcpf" ColumnName="pa_cnpjcpf" />
+          <ScalarProperty Name="pa_mn_ind" ColumnName="pa_mn_ind" />
+          <ScalarProperty Name="pa_tippre" ColumnName="pa_tippre" />
+          <ScalarProperty Name="pa_tpups" ColumnName="pa_tpups" />
+          <ScalarProperty Name="pa_incurg" ColumnName="pa_incurg" />
+          <ScalarProperty Name="pa_incout" ColumnName="pa_incout" />
+          <ScalarProperty Name="pa_regct" ColumnName="pa_regct" />
+          <ScalarProperty Name="pa_ufmun" ColumnName="pa_ufmun" />
+          <ScalarProperty Name="pa_condic" ColumnName="pa_condic" />
+          <ScalarProperty Name="pa_gestao" ColumnName="pa_gestao" />
+          <ScalarProperty Name="pa_coduni" ColumnName="pa_coduni" />
+          <ScalarProperty Name="nm_arquivo" ColumnName="nm_arquivo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Arquivoes">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.Arquivo">
+        <MappingFragment StoreEntitySet="Arquivo">
+          <ScalarProperty Name="SucessoConversao" ColumnName="SucessoConversao" />
+          <ScalarProperty Name="SucessoDownload" ColumnName="SucessoDownload" />
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="TotalDownloads" ColumnName="TotalDownloads" />
+          <ScalarProperty Name="DataDownload" ColumnName="DataDownload" />
+          <ScalarProperty Name="LocalDestinoDBF" ColumnName="LocalDestinoDBF" />
+          <ScalarProperty Name="LocalDestino" ColumnName="LocalDestino" />
+          <ScalarProperty Name="LocalOrigem" ColumnName="LocalOrigem" />
+          <ScalarProperty Name="Tamanho" ColumnName="Tamanho" />
+          <ScalarProperty Name="DataModificacao" ColumnName="DataModificacao" />
+          <ScalarProperty Name="DataCriacao" ColumnName="DataCriacao" />
+          <ScalarProperty Name="IdEstadoUF" ColumnName="IdEstadoUF" />
+          <ScalarProperty Name="IdTipoArquivo" ColumnName="IdTipoArquivo" />
+          <ScalarProperty Name="DataDados" ColumnName="DataDados" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogArquivoes">
+      <EntityTypeMapping TypeName="DB_ARQUIVOS_DATASUSModel.LogArquivo">
+        <MappingFragment StoreEntitySet="LogArquivo">
+          <ScalarProperty Name="SucessoConversao" ColumnName="SucessoConversao" />
+          <ScalarProperty Name="SucessoDownload" ColumnName="SucessoDownload" />
+          <ScalarProperty Name="DataAlteracaoRegistro" ColumnName="DataAlteracaoRegistro" />
+          <ScalarProperty Name="DataDownload" ColumnName="DataDownload" />
+          <ScalarProperty Name="LocalDestinoDBF" ColumnName="LocalDestinoDBF" />
+          <ScalarProperty Name="LocalDestino" ColumnName="LocalDestino" />
+          <ScalarProperty Name="LocalOrigem" ColumnName="LocalOrigem" />
+          <ScalarProperty Name="EventoInclusao" ColumnName="EventoInclusao" />
+          <ScalarProperty Name="Tamanho" ColumnName="Tamanho" />
+          <ScalarProperty Name="DataModificacao" ColumnName="DataModificacao" />
+          <ScalarProperty Name="DataCriacao" ColumnName="DataCriacao" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

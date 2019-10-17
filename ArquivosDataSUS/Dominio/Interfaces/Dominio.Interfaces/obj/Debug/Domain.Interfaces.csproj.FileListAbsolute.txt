@@ -1,0 +1,18 @@
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Interfaces\Dominio.Interfaces\obj\Debug\Domain.Interfaces.pdb

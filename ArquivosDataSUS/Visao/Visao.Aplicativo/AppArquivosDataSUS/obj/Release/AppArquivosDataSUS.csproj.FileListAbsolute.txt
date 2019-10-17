@@ -1,0 +1,93 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\NLog.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmArquivoDataSUS.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmBaixarArquivos.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmSobre.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.Properties.Resources.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csproj.GenerateResource.Cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\NLog.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmArquivoDataSUS.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmBaixarArquivos.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmSobre.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.Properties.Resources.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csproj.GenerateResource.Cache
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe.config
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.exe
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\NLog.config
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.exe
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\ArquivosDataSUS.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.dll
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Application.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Interfaces.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Domain.Service.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Infrastructure.Data.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Quartz.xml
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Windsor.xml
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\bin\Release\Castle.Core.xml
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmArquivoDataSUS.resources
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmBaixarArquivos.resources
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.FrmSobre.resources
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\ArquivosDataSUS.Properties.Resources.resources
+C:\DESENVOLVIMENTO\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Aplicativo\AppArquivosDataSUS\obj\Release\AppArquivosDataSUS.csproj.GenerateResource.Cache

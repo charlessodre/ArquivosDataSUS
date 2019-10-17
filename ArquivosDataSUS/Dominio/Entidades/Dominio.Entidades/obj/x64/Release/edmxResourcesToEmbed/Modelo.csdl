@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_ARQUIVOS_DATASUSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DB_ARQUIVOS_DATASUSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EstadoUFs" EntityType="DB_ARQUIVOS_DATASUSModel.EstadoUF" />
+    <EntitySet Name="TipoArquivoes" EntityType="DB_ARQUIVOS_DATASUSModel.TipoArquivo" />
+    <EntitySet Name="LogErroAplicacaos" EntityType="DB_ARQUIVOS_DATASUSModel.LogErroAplicacao" />
+    <EntitySet Name="ArquivosRDs" EntityType="DB_ARQUIVOS_DATASUSModel.ArquivosRD" />
+    <EntitySet Name="ArquivosRJs" EntityType="DB_ARQUIVOS_DATASUSModel.ArquivosRJ" />
+    <EntitySet Name="LogErroArquivoes" EntityType="DB_ARQUIVOS_DATASUSModel.LogErroArquivo" />
+    <EntitySet Name="ArquivosPAs" EntityType="DB_ARQUIVOS_DATASUSModel.ArquivosPA" />
+    <EntitySet Name="Arquivoes" EntityType="DB_ARQUIVOS_DATASUSModel.Arquivo" />
+    <EntitySet Name="LogArquivoes" EntityType="DB_ARQUIVOS_DATASUSModel.LogArquivo" />
+    <AssociationSet Name="EstadoUF_Aquivo" Association="DB_ARQUIVOS_DATASUSModel.EstadoUF_Aquivo">
+      <End Role="EstadoUF" EntitySet="EstadoUFs" />
+      <End Role="Arquivo" EntitySet="Arquivoes" />
+    </AssociationSet>
+    <AssociationSet Name="TipoArquivo_Arquivo" Association="DB_ARQUIVOS_DATASUSModel.TipoArquivo_Arquivo">
+      <End Role="TipoArquivo" EntitySet="TipoArquivoes" />
+      <End Role="Arquivo" EntitySet="Arquivoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="EstadoUF">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sigla" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Arquivoes" Relationship="DB_ARQUIVOS_DATASUSModel.EstadoUF_Aquivo" FromRole="EstadoUF" ToRole="Arquivo" />
+  </EntityType>
+  <EntityType Name="TipoArquivo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Arquivoes" Relationship="DB_ARQUIVOS_DATASUSModel.TipoArquivo_Arquivo" FromRole="TipoArquivo" ToRole="Arquivo" />
+  </EntityType>
+  <EntityType Name="LogErroAplicacao">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Precision="3" />
+    <Property Name="Mensagem" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="Origem" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Excecao" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="CodExcecao" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ArquivosRD">
+    <Key>
+      <PropertyRef Name="nm_arquivo" />
+    </Key>
+    <Property Name="nm_arquivo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="uf_zi" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="ano_cmpt" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="mes_cmpt" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="espec" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="cgc_hosp" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="n_aih" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="ident" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cep" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="munic_res" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="nasc" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="sexo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="uti_mes_in" Type="Int32" />
+    <Property Name="uti_mes_an" Type="Int32" />
+    <Property Name="uti_mes_al" Type="Int32" />
+    <Property Name="uti_mes_to" Type="Int32" />
+    <Property Name="marca_uti" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="uti_int_in" Type="Int32" />
+    <Property Name="uti_int_an" Type="Int32" />
+    <Property Name="uti_int_al" Type="Int32" />
+    <Property Name="uti_int_to" Type="Int32" />
+    <Property Name="diar_acom" Type="Int32" />
+    <Property Name="qt_diarias" Type="Int32" />
+    <Property Name="proc_solic" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="proc_rea" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="val_sh" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sadt" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_rn" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_acomp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_ortp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sangue" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sadtsr" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_transp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_obsang" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_ped1ac" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_tot" Type="Decimal" Precision="14" Scale="2" />
+    <Property Name="val_uti" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="us_tot" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="dt_inter" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="dt_saida" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="diag_princ" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="diag_secun" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="cobranca" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="natureza" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="nat_jur" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="gestao" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="rubrica" Type="Decimal" Precision="5" Scale="0" />
+    <Property Name="ind_vdrl" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="munic_mov" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="cod_idade" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="idade" Type="Int32" />
+    <Property Name="dias_perm" Type="Decimal" Precision="5" Scale="0" />
+    <Property Name="morte" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="nacional" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="num_proc" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="car_int" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="tot_pt_sp" Type="Decimal" Precision="6" Scale="0" />
+    <Property Name="cpf_aut" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="homonimo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="num_filhos" Type="Int32" />
+    <Property Name="instru" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cid_notif" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="contracep1" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="contracep2" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="gestrisco" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="insc_pn" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <Property Name="seq_aih5" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="cbor" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="cnaer" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="vincprev" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_cod" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_tp" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_cpf" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_dt" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="cnes" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="cnpj_mant" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="infehosp" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cid_asso" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="cid_morte" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="complex" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="financ" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="faec_tp" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="regct" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="raca_cor" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="etnia" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="sequencia" Type="Int32" />
+    <Property Name="remessa" Type="String" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="aud_just" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="sis_just" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="val_sh_fed" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="val_sp_fed" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="val_sh_ges" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="val_sp_ges" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ArquivosRJ">
+    <Key>
+      <PropertyRef Name="nm_arquivo" />
+    </Key>
+    <Property Name="nm_arquivo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="uf_zi" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="ano_cmpt" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="mes_cmpt" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="espec" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="cgc_hosp" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="n_aih" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="ident" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cep" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="munic_res" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="nasc" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="sexo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="uti_mes_in" Type="Int32" />
+    <Property Name="uti_mes_an" Type="Int32" />
+    <Property Name="uti_mes_al" Type="Int32" />
+    <Property Name="uti_mes_to" Type="Int32" />
+    <Property Name="marca_uti" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="uti_int_in" Type="Int32" />
+    <Property Name="uti_int_an" Type="Int32" />
+    <Property Name="uti_int_al" Type="Int32" />
+    <Property Name="uti_int_to" Type="Int32" />
+    <Property Name="diar_acom" Type="Int32" />
+    <Property Name="qt_diarias" Type="Int32" />
+    <Property Name="proc_solic" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="proc_rea" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="val_sh" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sadt" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_rn" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_acomp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_ortp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sangue" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_sadtsr" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_transp" Type="Decimal" Precision="13" Scale="2" />
+    <Property Name="val_obsang" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_ped1ac" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="val_tot" Type="Decimal" Precision="14" Scale="2" />
+    <Property Name="val_uti" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="us_tot" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="dt_inter" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="dt_saida" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="diag_princ" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="diag_secun" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="cobranca" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="natureza" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="nat_jur" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="gestao" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="rubrica" Type="Int32" />
+    <Property Name="ind_vdrl" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="munic_mov" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="cod_idade" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="idade" Type="Int32" />
+    <Property Name="dias_perm" Type="Int32" />
+    <Property Name="morte" Type="Int32" />
+    <Property Name="nacional" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="num_proc" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="car_int" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="tot_pt_sp" Type="Int32" />
+    <Property Name="cpf_aut" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="homonimo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="num_filhos" Type="Int32" />
+    <Property Name="instru" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cid_notif" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="contracep1" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="contracep2" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="gestrisco" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="insc_pn" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+    <Property Name="seq_aih5" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="cbor" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="cnaer" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="vincprev" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_cod" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_tp" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_cpf" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="gestor_dt" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="cnes" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="cnpj_mant" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="infehosp" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="cid_asso" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="cid_morte" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="complex" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="financ" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="faec_tp" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="regct" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="raca_cor" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="etnia" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="st_situac" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="st_bloq" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="st_mot_blo" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="sequencia" Type="Int32" />
+    <Property Name="remessa" Type="String" MaxLength="21" FixedLength="true" Unicode="false" />
+    <Property Name="DataAlteracaoRegistro" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="LogErroArquivo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DataErro" Type="DateTime" Precision="3" />
+    <Property Name="NomeArquivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TamanhoArquivo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="LocalDestinoDBF" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="LocalDestino" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="MsgErro" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ArquivosPA">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nm_arquivo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pa_coduni" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="pa_gestao" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_condic" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_ufmun" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_regct" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_incout" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_incurg" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_tpups" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_tippre" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_mn_ind" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cnpjcpf" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cnpjmnt" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cnpj_cc" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="pa_mvm" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cmp" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_proc_id" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="pa_tpfin" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_subfin" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_nivcpl" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_docorig" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_autoriz" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cnsmed" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cbocod" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_motsai" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_obito" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_encerr" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_perman" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_alta" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_transf" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cidpri" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cidsec" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_cidcas" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_catend" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_idade" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="idademin" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="idademax" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="pa_flidade" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_sexo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_racacor" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pa_munpcn" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="pa_qtdpro" Type="Int32" />
+    <Property Name="pa_qtdapr" Type="Int32" />
+    <Property Name="pa_valpro" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_valapr" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_ufdif" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_mndif" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_dif_val" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="nu_vpa_tot" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="nu_pa_tot" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_indica" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_codoco" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_flqt" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_fler" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="pa_etnia" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="pa_vl_cf" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_vl_cl" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_vl_inc" Type="Decimal" Precision="20" Scale="2" />
+    <Property Name="pa_srv_c" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Arquivo">
+    <Key>
+      <PropertyRef Name="Nome" />
+    </Key>
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DataDados" Type="Int32" />
+    <Property Name="IdTipoArquivo" Type="Int32" Nullable="false" />
+    <Property Name="IdEstadoUF" Type="Int32" Nullable="false" />
+    <Property Name="DataCriacao" Type="DateTime" Precision="3" />
+    <Property Name="DataModificacao" Type="DateTime" Precision="3" />
+    <Property Name="Tamanho" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="LocalOrigem" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="LocalDestino" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="LocalDestinoDBF" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="DataDownload" Type="DateTime" Precision="3" />
+    <Property Name="TotalDownloads" Type="Int32" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+    <Property Name="SucessoDownload" Type="Boolean" />
+    <Property Name="SucessoConversao" Type="Boolean" />
+    <NavigationProperty Name="EstadoUF" Relationship="DB_ARQUIVOS_DATASUSModel.EstadoUF_Aquivo" FromRole="Arquivo" ToRole="EstadoUF" />
+    <NavigationProperty Name="TipoArquivo" Relationship="DB_ARQUIVOS_DATASUSModel.TipoArquivo_Arquivo" FromRole="Arquivo" ToRole="TipoArquivo" />
+  </EntityType>
+  <EntityType Name="LogArquivo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DataCriacao" Type="DateTime" Precision="3" />
+    <Property Name="DataModificacao" Type="DateTime" Precision="3" />
+    <Property Name="Tamanho" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="EventoInclusao" Type="Boolean" />
+    <Property Name="LocalOrigem" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="LocalDestino" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="LocalDestinoDBF" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="DataDownload" Type="DateTime" Precision="3" />
+    <Property Name="DataAlteracaoRegistro" Type="DateTime" Precision="3" />
+    <Property Name="SucessoDownload" Type="Boolean" />
+    <Property Name="SucessoConversao" Type="Boolean" />
+  </EntityType>
+  <Association Name="EstadoUF_Aquivo">
+    <End Type="DB_ARQUIVOS_DATASUSModel.EstadoUF" Role="EstadoUF" Multiplicity="1" />
+    <End Type="DB_ARQUIVOS_DATASUSModel.Arquivo" Role="Arquivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EstadoUF">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Arquivo">
+        <PropertyRef Name="IdEstadoUF" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TipoArquivo_Arquivo">
+    <End Type="DB_ARQUIVOS_DATASUSModel.TipoArquivo" Role="TipoArquivo" Multiplicity="1" />
+    <End Type="DB_ARQUIVOS_DATASUSModel.Arquivo" Role="Arquivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoArquivo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Arquivo">
+        <PropertyRef Name="IdTipoArquivo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

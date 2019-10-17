@@ -1,0 +1,1836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Domain.Entity.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DomainEntityStoreContainer">
+          <EntitySet Name="Bairro" EntityType="Domain.Entity.Store.Bairro" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Cidade" EntityType="Domain.Entity.Store.Cidade" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Cliente" EntityType="Domain.Entity.Store.Cliente" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Demanda" EntityType="Domain.Entity.Store.Demanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Domicilio" EntityType="Domain.Entity.Store.Domicilio" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Endereco" EntityType="Domain.Entity.Store.Endereco" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Estado" EntityType="Domain.Entity.Store.Estado" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="EstadoCivil" EntityType="Domain.Entity.Store.EstadoCivil" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Evento" EntityType="Domain.Entity.Store.Evento" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Localizacao" EntityType="Domain.Entity.Store.Localizacao" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LocalizacaoHistorico" EntityType="Domain.Entity.Store.LocalizacaoHistorico" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Menu" EntityType="Domain.Entity.Store.Menu" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MotivoNaoRealizacaoVisita" EntityType="Domain.Entity.Store.MotivoNaoRealizacaoVisita" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="OrigemDemanda" EntityType="Domain.Entity.Store.OrigemDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Perfil" EntityType="Domain.Entity.Store.Perfil" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PrazoDemanda" EntityType="Domain.Entity.Store.PrazoDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PrioridadeDemanda" EntityType="Domain.Entity.Store.PrioridadeDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StatusDemanda" EntityType="Domain.Entity.Store.StatusDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="sysdiagrams" EntityType="Domain.Entity.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TipoDemanda" EntityType="Domain.Entity.Store.TipoDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TipoVisita" EntityType="Domain.Entity.Store.TipoVisita" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Usuario" EntityType="Domain.Entity.Store.Usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UsuarioResponsavel_TipoDemanda" EntityType="Domain.Entity.Store.UsuarioResponsavel_TipoDemanda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Visita" EntityType="Domain.Entity.Store.Visita" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Bairro_Cidade" Association="Domain.Entity.Store.FK_Bairro_Cidade">
+            <End Role="Cidade" EntitySet="Cidade" />
+            <End Role="Bairro" EntitySet="Bairro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cidade_Estado" Association="Domain.Entity.Store.FK_Cidade_Estado">
+            <End Role="Estado" EntitySet="Estado" />
+            <End Role="Cidade" EntitySet="Cidade" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cliente_Domicilio" Association="Domain.Entity.Store.FK_Cliente_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Cliente" EntitySet="Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Cliente" Association="Domain.Entity.Store.FK_Demanda_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Domicilio" Association="Domain.Entity.Store.FK_Demanda_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_OrigemDemanda" Association="Domain.Entity.Store.FK_Demanda_OrigemDemanda">
+            <End Role="OrigemDemanda" EntitySet="OrigemDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_PrioridadeDemanda" Association="Domain.Entity.Store.FK_Demanda_PrioridadeDemanda">
+            <End Role="PrioridadeDemanda" EntitySet="PrioridadeDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_TipoDemanda" Association="Domain.Entity.Store.FK_Demanda_TipoDemanda">
+            <End Role="TipoDemanda" EntitySet="TipoDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Usuario" Association="Domain.Entity.Store.FK_Demanda_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Domicilio_Endereco" Association="Domain.Entity.Store.FK_Domicilio_Endereco">
+            <End Role="Endereco" EntitySet="Endereco" />
+            <End Role="Domicilio" EntitySet="Domicilio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eleitor_EstadoCivil" Association="Domain.Entity.Store.FK_Eleitor_EstadoCivil">
+            <End Role="EstadoCivil" EntitySet="EstadoCivil" />
+            <End Role="Cliente" EntitySet="Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Endereco_Bairro" Association="Domain.Entity.Store.FK_Endereco_Bairro">
+            <End Role="Bairro" EntitySet="Bairro" />
+            <End Role="Endereco" EntitySet="Endereco" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Endereco_Cidade" Association="Domain.Entity.Store.FK_Endereco_Cidade">
+            <End Role="Cidade" EntitySet="Cidade" />
+            <End Role="Endereco" EntitySet="Endereco" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Evento_Cliente" Association="Domain.Entity.Store.FK_Evento_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Evento_Usuario" Association="Domain.Entity.Store.FK_Evento_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Localizacao_Usuario" Association="Domain.Entity.Store.FK_Localizacao_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Localizacao" EntitySet="Localizacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocalizacaoHistorico_Usuario" Association="Domain.Entity.Store.FK_LocalizacaoHistorico_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="LocalizacaoHistorico" EntitySet="LocalizacaoHistorico" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Menu_Menu" Association="Domain.Entity.Store.FK_Menu_Menu">
+            <End Role="Menu" EntitySet="Menu" />
+            <End Role="Menu1" EntitySet="Menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrazoDemanda_Demanda" Association="Domain.Entity.Store.FK_PrazoDemanda_Demanda">
+            <End Role="Demanda" EntitySet="Demanda" />
+            <End Role="PrazoDemanda" EntitySet="PrazoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrazoDemanda_StatusDemanda" Association="Domain.Entity.Store.FK_PrazoDemanda_StatusDemanda">
+            <End Role="StatusDemanda" EntitySet="StatusDemanda" />
+            <End Role="PrazoDemanda" EntitySet="PrazoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_Perfil" Association="Domain.Entity.Store.FK_Usuario_Perfil">
+            <End Role="Perfil" EntitySet="Perfil" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsuarioResponsavel_TipoDemanda_TipoDemanda" Association="Domain.Entity.Store.FK_UsuarioResponsavel_TipoDemanda_TipoDemanda">
+            <End Role="TipoDemanda" EntitySet="TipoDemanda" />
+            <End Role="UsuarioResponsavel_TipoDemanda" EntitySet="UsuarioResponsavel_TipoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsuarioResponsavel_TipoDemanda_Usuario" Association="Domain.Entity.Store.FK_UsuarioResponsavel_TipoDemanda_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="UsuarioResponsavel_TipoDemanda" EntitySet="UsuarioResponsavel_TipoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_Domicilio" Association="Domain.Entity.Store.FK_Visita_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_MotivoNaoRealizacaoVisita" Association="Domain.Entity.Store.FK_Visita_MotivoNaoRealizacaoVisita">
+            <End Role="MotivoNaoRealizacaoVisita" EntitySet="MotivoNaoRealizacaoVisita" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_TipoVisita" Association="Domain.Entity.Store.FK_Visita_TipoVisita">
+            <End Role="TipoVisita" EntitySet="TipoVisita" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_Usuario" Association="Domain.Entity.Store.FK_Visita_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Bairro">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="200" />
+          <Property Name="IdCidade" Type="int" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Cidade">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="varchar" MaxLength="200" />
+          <Property Name="IdEstado" Type="int" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="300" />
+          <Property Name="DataNascimento" Type="datetime" />
+          <Property Name="Sexo" Type="char" MaxLength="1" />
+          <Property Name="IdEstadoCivil" Type="int" />
+          <Property Name="DataCadastro" Type="datetime" />
+          <Property Name="Ativo" Type="bit" />
+          <Property Name="Profissao" Type="varchar" MaxLength="300" />
+          <Property Name="CodigoCadastro" Type="varchar" MaxLength="100" />
+          <Property Name="Vip" Type="bit" />
+          <Property Name="Sindico" Type="bit" />
+          <Property Name="IdDomicilio" Type="uniqueidentifier" />
+          <Property Name="Excluido" Type="bit" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+          <Property Name="Email" Type="varchar" MaxLength="300" />
+          <Property Name="TelefoneResidencial" Type="varchar" MaxLength="20" />
+          <Property Name="TelefoneComercial" Type="varchar" MaxLength="20" />
+          <Property Name="Celular1" Type="varchar" MaxLength="20" />
+          <Property Name="Celular2" Type="varchar" MaxLength="20" />
+          <Property Name="DataAtualizacao" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Demanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Titulo" Type="varchar" MaxLength="100" />
+          <Property Name="Descricao" Type="varchar" MaxLength="500" />
+          <Property Name="Data" Type="datetime" />
+          <Property Name="IdPrioridade" Type="int" />
+          <Property Name="IdOrigem" Type="int" />
+          <Property Name="IdTipo" Type="int" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+          <Property Name="Excluido" Type="bit" />
+          <Property Name="idCliente" Type="uniqueidentifier" />
+          <Property Name="idDomicilio" Type="uniqueidentifier" />
+          <Property Name="idUsuario" Type="int" />
+        </EntityType>
+        <EntityType Name="Domicilio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Numero" Type="int" />
+          <Property Name="Complemento" Type="varchar" MaxLength="300" />
+          <Property Name="IdEndereco" Type="int" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Endereco">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="400" />
+          <Property Name="CEP" Type="varchar" Nullable="false" MaxLength="9" />
+          <Property Name="IdCidade" Type="int" />
+          <Property Name="IdBairro" Type="uniqueidentifier" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Estado">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="varchar" MaxLength="200" />
+          <Property Name="Sigla" Type="varchar" MaxLength="3" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="EstadoCivil">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="100" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Evento">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Data" Type="datetime" />
+          <Property Name="Descricao" Type="varchar" MaxLength="500" />
+          <Property Name="IdUsuario" Type="int" />
+          <Property Name="IdCliente" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Localizacao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="IdUsuario" Type="int" />
+          <Property Name="DataHora" Type="datetime" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+          <Property Name="DescricaoEndereco" Type="varchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="LocalizacaoHistorico">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="IdUsuario" Type="int" />
+          <Property Name="DataHora" Type="datetime" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Menu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="NomeModulo" Type="varchar" MaxLength="100" />
+          <Property Name="Sequencia" Type="int" />
+          <Property Name="CodigoPai" Type="int" />
+        </EntityType>
+        <EntityType Name="MotivoNaoRealizacaoVisita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="OrigemDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Perfil">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NomePerfil" Type="varchar" MaxLength="200" />
+          <Property Name="DataCadatro" Type="datetime" />
+          <Property Name="Privilegio" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PrazoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdStatus" Type="int" />
+          <Property Name="IdDemanda" Type="uniqueidentifier" />
+          <Property Name="DataAlteracaoStatus" Type="datetime" />
+          <Property Name="PrazoAtendimento" Type="datetime" />
+          <Property Name="Justificativa" Type="varchar" MaxLength="400" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="PrioridadeDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="StatusDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+          <Property Name="StatusAtendimento" Type="bit" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TipoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="300" />
+          <Property Name="PrazoAtendimento" Type="time" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="TipoVisita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NomeUsuario" Type="varchar" MaxLength="200" />
+          <Property Name="Login" Type="varchar" MaxLength="100" />
+          <Property Name="Senha" Type="varchar" MaxLength="200" />
+          <Property Name="DataCadastro" Type="datetime" />
+          <Property Name="IdPerfil" Type="int" />
+          <Property Name="Status" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="DataAtualizacao" Type="datetime" />
+          <Property Name="IdGCM" Type="varchar" MaxLength="200" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="UsuarioResponsavel_TipoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="IdUsuarioResponsavel" Type="int" />
+          <Property Name="IdTipoDemanda" Type="int" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="Visita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="IdDomicilio" Type="uniqueidentifier" />
+          <Property Name="DataAgendamento" Type="datetime" />
+          <Property Name="DataHoraVisita" Type="datetime" />
+          <Property Name="Latitude" Type="float" />
+          <Property Name="Longitude" Type="float" />
+          <Property Name="IdTipoVisita" Type="int" />
+          <Property Name="Realizada" Type="bit" />
+          <Property Name="IdMotivoNaoRealizacao" Type="int" />
+          <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+          <Property Name="IdUsuario" Type="int" />
+          <Property Name="Excluido" Type="bit" />
+        </EntityType>
+        <Association Name="FK_Bairro_Cidade">
+          <End Role="Cidade" Type="Domain.Entity.Store.Cidade" Multiplicity="0..1" />
+          <End Role="Bairro" Type="Domain.Entity.Store.Bairro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cidade">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Bairro">
+              <PropertyRef Name="IdCidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cidade_Estado">
+          <End Role="Estado" Type="Domain.Entity.Store.Estado" Multiplicity="0..1" />
+          <End Role="Cidade" Type="Domain.Entity.Store.Cidade" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estado">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cidade">
+              <PropertyRef Name="IdEstado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cliente_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Store.Domicilio" Multiplicity="0..1" />
+          <End Role="Cliente" Type="Domain.Entity.Store.Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cliente">
+              <PropertyRef Name="IdDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Cliente">
+          <End Role="Cliente" Type="Domain.Entity.Store.Cliente" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Store.Domicilio" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_OrigemDemanda">
+          <End Role="OrigemDemanda" Type="Domain.Entity.Store.OrigemDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrigemDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdOrigem" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_PrioridadeDemanda">
+          <End Role="PrioridadeDemanda" Type="Domain.Entity.Store.PrioridadeDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrioridadeDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdPrioridade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_TipoDemanda">
+          <End Role="TipoDemanda" Type="Domain.Entity.Store.TipoDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdTipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Domicilio_Endereco">
+          <End Role="Endereco" Type="Domain.Entity.Store.Endereco" Multiplicity="0..1" />
+          <End Role="Domicilio" Type="Domain.Entity.Store.Domicilio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Endereco">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Domicilio">
+              <PropertyRef Name="IdEndereco" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eleitor_EstadoCivil">
+          <End Role="EstadoCivil" Type="Domain.Entity.Store.EstadoCivil" Multiplicity="0..1" />
+          <End Role="Cliente" Type="Domain.Entity.Store.Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstadoCivil">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cliente">
+              <PropertyRef Name="IdEstadoCivil" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Endereco_Bairro">
+          <End Role="Bairro" Type="Domain.Entity.Store.Bairro" Multiplicity="0..1" />
+          <End Role="Endereco" Type="Domain.Entity.Store.Endereco" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bairro">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Endereco">
+              <PropertyRef Name="IdBairro" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Endereco_Cidade">
+          <End Role="Cidade" Type="Domain.Entity.Store.Cidade" Multiplicity="0..1" />
+          <End Role="Endereco" Type="Domain.Entity.Store.Endereco" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cidade">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Endereco">
+              <PropertyRef Name="IdCidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Evento_Cliente">
+          <End Role="Cliente" Type="Domain.Entity.Store.Cliente" Multiplicity="0..1" />
+          <End Role="Evento" Type="Domain.Entity.Store.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="IdCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Evento_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="Evento" Type="Domain.Entity.Store.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Localizacao_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="Localizacao" Type="Domain.Entity.Store.Localizacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Localizacao">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocalizacaoHistorico_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="LocalizacaoHistorico" Type="Domain.Entity.Store.LocalizacaoHistorico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LocalizacaoHistorico">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Menu_Menu">
+          <End Role="Menu" Type="Domain.Entity.Store.Menu" Multiplicity="0..1" />
+          <End Role="Menu1" Type="Domain.Entity.Store.Menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Menu1">
+              <PropertyRef Name="CodigoPai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrazoDemanda_Demanda">
+          <End Role="Demanda" Type="Domain.Entity.Store.Demanda" Multiplicity="0..1" />
+          <End Role="PrazoDemanda" Type="Domain.Entity.Store.PrazoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Demanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrazoDemanda">
+              <PropertyRef Name="IdDemanda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrazoDemanda_StatusDemanda">
+          <End Role="StatusDemanda" Type="Domain.Entity.Store.StatusDemanda" Multiplicity="0..1" />
+          <End Role="PrazoDemanda" Type="Domain.Entity.Store.PrazoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StatusDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrazoDemanda">
+              <PropertyRef Name="IdStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usuario_Perfil">
+          <End Role="Perfil" Type="Domain.Entity.Store.Perfil" Multiplicity="0..1" />
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Perfil">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="IdPerfil" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsuarioResponsavel_TipoDemanda_TipoDemanda">
+          <End Role="TipoDemanda" Type="Domain.Entity.Store.TipoDemanda" Multiplicity="0..1" />
+          <End Role="UsuarioResponsavel_TipoDemanda" Type="Domain.Entity.Store.UsuarioResponsavel_TipoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsuarioResponsavel_TipoDemanda">
+              <PropertyRef Name="IdTipoDemanda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsuarioResponsavel_TipoDemanda_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="UsuarioResponsavel_TipoDemanda" Type="Domain.Entity.Store.UsuarioResponsavel_TipoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsuarioResponsavel_TipoDemanda">
+              <PropertyRef Name="IdUsuarioResponsavel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Store.Domicilio" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Store.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_MotivoNaoRealizacaoVisita">
+          <End Role="MotivoNaoRealizacaoVisita" Type="Domain.Entity.Store.MotivoNaoRealizacaoVisita" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Store.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MotivoNaoRealizacaoVisita">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdMotivoNaoRealizacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_TipoVisita">
+          <End Role="TipoVisita" Type="Domain.Entity.Store.TipoVisita" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Store.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoVisita">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdTipoVisita" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Store.Usuario" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Store.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <!--Erros Encontrados Durante a Geração:
+      aviso 6013: A tabela/exibição 'WebEleitor2.0.dbo.Visita_Demanda' não possui uma chave primária definida e não foi possível inferir uma chave primária válida. Essa tabela/exibição foi excluída. Para usar a entidade, você precisará revisar seu esquema, adicionar as chaves corretas e remover os comentários da entidade.
+      
+      <EntityType Name="Visita_Demanda">
+        <Property Name="Id" Type="uniqueidentifier" />
+        <Property Name="IdVisita" Type="uniqueidentifier" />
+        <Property Name="IdDemanda" Type="uniqueidentifier" />
+        <Property Name="RowVersion" Type="timestamp" StoreGeneratedPattern="Computed" />
+      </EntityType>-->
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Domain.Entity" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="WebEleitores2Entities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Bairro" EntityType="Domain.Entity.Bairro" />
+          <EntitySet Name="Cidade" EntityType="Domain.Entity.Cidade" />
+          <EntitySet Name="Cliente" EntityType="Domain.Entity.Cliente" />
+          <EntitySet Name="Demanda" EntityType="Domain.Entity.Demanda" />
+          <EntitySet Name="Domicilio" EntityType="Domain.Entity.Domicilio" />
+          <EntitySet Name="Endereco" EntityType="Domain.Entity.Endereco" />
+          <EntitySet Name="Estado" EntityType="Domain.Entity.Estado" />
+          <EntitySet Name="EstadoCivil" EntityType="Domain.Entity.EstadoCivil" />
+          <EntitySet Name="Evento" EntityType="Domain.Entity.Evento" />
+          <EntitySet Name="Localizacao" EntityType="Domain.Entity.Localizacao" />
+          <EntitySet Name="LocalizacaoHistorico" EntityType="Domain.Entity.LocalizacaoHistorico" />
+          <EntitySet Name="Menu" EntityType="Domain.Entity.Menu" />
+          <EntitySet Name="MotivoNaoRealizacaoVisita" EntityType="Domain.Entity.MotivoNaoRealizacaoVisita" />
+          <EntitySet Name="OrigemDemanda" EntityType="Domain.Entity.OrigemDemanda" />
+          <EntitySet Name="Perfil" EntityType="Domain.Entity.Perfil" />
+          <EntitySet Name="PrazoDemanda" EntityType="Domain.Entity.PrazoDemanda" />
+          <EntitySet Name="PrioridadeDemanda" EntityType="Domain.Entity.PrioridadeDemanda" />
+          <EntitySet Name="StatusDemanda" EntityType="Domain.Entity.StatusDemanda" />
+          <EntitySet Name="sysdiagrams" EntityType="Domain.Entity.sysdiagrams" />
+          <EntitySet Name="TipoDemanda" EntityType="Domain.Entity.TipoDemanda" />
+          <EntitySet Name="TipoVisita" EntityType="Domain.Entity.TipoVisita" />
+          <EntitySet Name="Usuario" EntityType="Domain.Entity.Usuario" />
+          <EntitySet Name="UsuarioResponsavel_TipoDemanda" EntityType="Domain.Entity.UsuarioResponsavel_TipoDemanda" />
+          <EntitySet Name="Visita" EntityType="Domain.Entity.Visita" />
+          <AssociationSet Name="FK_Bairro_Cidade" Association="Domain.Entity.FK_Bairro_Cidade">
+            <End Role="Cidade" EntitySet="Cidade" />
+            <End Role="Bairro" EntitySet="Bairro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Endereco_Bairro" Association="Domain.Entity.FK_Endereco_Bairro">
+            <End Role="Bairro" EntitySet="Bairro" />
+            <End Role="Endereco" EntitySet="Endereco" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cidade_Estado" Association="Domain.Entity.FK_Cidade_Estado">
+            <End Role="Estado" EntitySet="Estado" />
+            <End Role="Cidade" EntitySet="Cidade" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Endereco_Cidade" Association="Domain.Entity.FK_Endereco_Cidade">
+            <End Role="Cidade" EntitySet="Cidade" />
+            <End Role="Endereco" EntitySet="Endereco" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cliente_Domicilio" Association="Domain.Entity.FK_Cliente_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Cliente" EntitySet="Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Cliente" Association="Domain.Entity.FK_Demanda_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Eleitor_EstadoCivil" Association="Domain.Entity.FK_Eleitor_EstadoCivil">
+            <End Role="EstadoCivil" EntitySet="EstadoCivil" />
+            <End Role="Cliente" EntitySet="Cliente" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Evento_Cliente" Association="Domain.Entity.FK_Evento_Cliente">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Domicilio" Association="Domain.Entity.FK_Demanda_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_OrigemDemanda" Association="Domain.Entity.FK_Demanda_OrigemDemanda">
+            <End Role="OrigemDemanda" EntitySet="OrigemDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_PrioridadeDemanda" Association="Domain.Entity.FK_Demanda_PrioridadeDemanda">
+            <End Role="PrioridadeDemanda" EntitySet="PrioridadeDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_TipoDemanda" Association="Domain.Entity.FK_Demanda_TipoDemanda">
+            <End Role="TipoDemanda" EntitySet="TipoDemanda" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Demanda_Usuario" Association="Domain.Entity.FK_Demanda_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Demanda" EntitySet="Demanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrazoDemanda_Demanda" Association="Domain.Entity.FK_PrazoDemanda_Demanda">
+            <End Role="Demanda" EntitySet="Demanda" />
+            <End Role="PrazoDemanda" EntitySet="PrazoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Domicilio_Endereco" Association="Domain.Entity.FK_Domicilio_Endereco">
+            <End Role="Endereco" EntitySet="Endereco" />
+            <End Role="Domicilio" EntitySet="Domicilio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_Domicilio" Association="Domain.Entity.FK_Visita_Domicilio">
+            <End Role="Domicilio" EntitySet="Domicilio" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Evento_Usuario" Association="Domain.Entity.FK_Evento_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Evento" EntitySet="Evento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Localizacao_Usuario" Association="Domain.Entity.FK_Localizacao_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Localizacao" EntitySet="Localizacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LocalizacaoHistorico_Usuario" Association="Domain.Entity.FK_LocalizacaoHistorico_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="LocalizacaoHistorico" EntitySet="LocalizacaoHistorico" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Menu_Menu" Association="Domain.Entity.FK_Menu_Menu">
+            <End Role="Menu" EntitySet="Menu" />
+            <End Role="Menu1" EntitySet="Menu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_MotivoNaoRealizacaoVisita" Association="Domain.Entity.FK_Visita_MotivoNaoRealizacaoVisita">
+            <End Role="MotivoNaoRealizacaoVisita" EntitySet="MotivoNaoRealizacaoVisita" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usuario_Perfil" Association="Domain.Entity.FK_Usuario_Perfil">
+            <End Role="Perfil" EntitySet="Perfil" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrazoDemanda_StatusDemanda" Association="Domain.Entity.FK_PrazoDemanda_StatusDemanda">
+            <End Role="StatusDemanda" EntitySet="StatusDemanda" />
+            <End Role="PrazoDemanda" EntitySet="PrazoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsuarioResponsavel_TipoDemanda_TipoDemanda" Association="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_TipoDemanda">
+            <End Role="TipoDemanda" EntitySet="TipoDemanda" />
+            <End Role="UsuarioResponsavel_TipoDemanda" EntitySet="UsuarioResponsavel_TipoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_TipoVisita" Association="Domain.Entity.FK_Visita_TipoVisita">
+            <End Role="TipoVisita" EntitySet="TipoVisita" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UsuarioResponsavel_TipoDemanda_Usuario" Association="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="UsuarioResponsavel_TipoDemanda" EntitySet="UsuarioResponsavel_TipoDemanda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Visita_Usuario" Association="Domain.Entity.FK_Visita_Usuario">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="Visita" EntitySet="Visita" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Bairro">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Nome" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="IdCidade" Type="Int32" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Cidade" Relationship="Domain.Entity.FK_Bairro_Cidade" FromRole="Bairro" ToRole="Cidade" />
+          <NavigationProperty Name="Endereco" Relationship="Domain.Entity.FK_Endereco_Bairro" FromRole="Bairro" ToRole="Endereco" />
+        </EntityType>
+        <EntityType Name="Cidade">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="IdEstado" Type="Int32" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Bairro" Relationship="Domain.Entity.FK_Bairro_Cidade" FromRole="Cidade" ToRole="Bairro" />
+          <NavigationProperty Name="Estado" Relationship="Domain.Entity.FK_Cidade_Estado" FromRole="Cidade" ToRole="Estado" />
+          <NavigationProperty Name="Endereco" Relationship="Domain.Entity.FK_Endereco_Cidade" FromRole="Cidade" ToRole="Endereco" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Nome" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="DataNascimento" Type="DateTime" Precision="3" />
+          <Property Name="Sexo" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="IdEstadoCivil" Type="Int32" />
+          <Property Name="DataCadastro" Type="DateTime" Precision="3" />
+          <Property Name="Ativo" Type="Boolean" />
+          <Property Name="Profissao" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="CodigoCadastro" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Vip" Type="Boolean" />
+          <Property Name="Sindico" Type="Boolean" />
+          <Property Name="IdDomicilio" Type="Guid" />
+          <Property Name="Excluido" Type="Boolean" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="Email" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="TelefoneResidencial" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="TelefoneComercial" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Celular1" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Celular2" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="DataAtualizacao" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Domicilio" Relationship="Domain.Entity.FK_Cliente_Domicilio" FromRole="Cliente" ToRole="Domicilio" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_Cliente" FromRole="Cliente" ToRole="Demanda" />
+          <NavigationProperty Name="EstadoCivil" Relationship="Domain.Entity.FK_Eleitor_EstadoCivil" FromRole="Cliente" ToRole="EstadoCivil" />
+          <NavigationProperty Name="Evento" Relationship="Domain.Entity.FK_Evento_Cliente" FromRole="Cliente" ToRole="Evento" />
+        </EntityType>
+        <EntityType Name="Demanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Titulo" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Descricao" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="Data" Type="DateTime" Precision="3" />
+          <Property Name="IdPrioridade" Type="Int32" />
+          <Property Name="IdOrigem" Type="Int32" />
+          <Property Name="IdTipo" Type="Int32" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="Excluido" Type="Boolean" />
+          <Property Name="idCliente" Type="Guid" />
+          <Property Name="idDomicilio" Type="Guid" />
+          <Property Name="idUsuario" Type="Int32" />
+          <NavigationProperty Name="Cliente" Relationship="Domain.Entity.FK_Demanda_Cliente" FromRole="Demanda" ToRole="Cliente" />
+          <NavigationProperty Name="Domicilio" Relationship="Domain.Entity.FK_Demanda_Domicilio" FromRole="Demanda" ToRole="Domicilio" />
+          <NavigationProperty Name="OrigemDemanda" Relationship="Domain.Entity.FK_Demanda_OrigemDemanda" FromRole="Demanda" ToRole="OrigemDemanda" />
+          <NavigationProperty Name="PrioridadeDemanda" Relationship="Domain.Entity.FK_Demanda_PrioridadeDemanda" FromRole="Demanda" ToRole="PrioridadeDemanda" />
+          <NavigationProperty Name="TipoDemanda" Relationship="Domain.Entity.FK_Demanda_TipoDemanda" FromRole="Demanda" ToRole="TipoDemanda" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_Demanda_Usuario" FromRole="Demanda" ToRole="Usuario" />
+          <NavigationProperty Name="PrazoDemanda" Relationship="Domain.Entity.FK_PrazoDemanda_Demanda" FromRole="Demanda" ToRole="PrazoDemanda" />
+        </EntityType>
+        <EntityType Name="Domicilio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Numero" Type="Int32" />
+          <Property Name="Complemento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="IdEndereco" Type="Int32" />
+          <Property Name="Latitude" Type="Double" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Cliente" Relationship="Domain.Entity.FK_Cliente_Domicilio" FromRole="Domicilio" ToRole="Cliente" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_Domicilio" FromRole="Domicilio" ToRole="Demanda" />
+          <NavigationProperty Name="Endereco" Relationship="Domain.Entity.FK_Domicilio_Endereco" FromRole="Domicilio" ToRole="Endereco" />
+          <NavigationProperty Name="Visita" Relationship="Domain.Entity.FK_Visita_Domicilio" FromRole="Domicilio" ToRole="Visita" />
+        </EntityType>
+        <EntityType Name="Endereco">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+          <Property Name="CEP" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="false" />
+          <Property Name="IdCidade" Type="Int32" />
+          <Property Name="IdBairro" Type="Guid" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Bairro" Relationship="Domain.Entity.FK_Endereco_Bairro" FromRole="Endereco" ToRole="Bairro" />
+          <NavigationProperty Name="Cidade" Relationship="Domain.Entity.FK_Endereco_Cidade" FromRole="Endereco" ToRole="Cidade" />
+          <NavigationProperty Name="Domicilio" Relationship="Domain.Entity.FK_Domicilio_Endereco" FromRole="Endereco" ToRole="Domicilio" />
+        </EntityType>
+        <EntityType Name="Estado">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Sigla" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Cidade" Relationship="Domain.Entity.FK_Cidade_Estado" FromRole="Estado" ToRole="Cidade" />
+        </EntityType>
+        <EntityType Name="EstadoCivil">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Cliente" Relationship="Domain.Entity.FK_Eleitor_EstadoCivil" FromRole="EstadoCivil" ToRole="Cliente" />
+        </EntityType>
+        <EntityType Name="Evento">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Data" Type="DateTime" Precision="3" />
+          <Property Name="Descricao" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="IdUsuario" Type="Int32" />
+          <Property Name="IdCliente" Type="Guid" />
+          <NavigationProperty Name="Cliente" Relationship="Domain.Entity.FK_Evento_Cliente" FromRole="Evento" ToRole="Cliente" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_Evento_Usuario" FromRole="Evento" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Localizacao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Latitude" Type="Double" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="IdUsuario" Type="Int32" />
+          <Property Name="DataHora" Type="DateTime" Precision="3" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="DescricaoEndereco" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_Localizacao_Usuario" FromRole="Localizacao" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="LocalizacaoHistorico">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Latitude" Type="Double" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="IdUsuario" Type="Int32" />
+          <Property Name="DataHora" Type="DateTime" Precision="3" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_LocalizacaoHistorico_Usuario" FromRole="LocalizacaoHistorico" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Menu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="NomeModulo" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Sequencia" Type="Int32" />
+          <Property Name="CodigoPai" Type="Int32" />
+          <NavigationProperty Name="Menu1" Relationship="Domain.Entity.FK_Menu_Menu" FromRole="Menu" ToRole="Menu1" />
+          <NavigationProperty Name="Menu2" Relationship="Domain.Entity.FK_Menu_Menu" FromRole="Menu1" ToRole="Menu" />
+        </EntityType>
+        <EntityType Name="MotivoNaoRealizacaoVisita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Visita" Relationship="Domain.Entity.FK_Visita_MotivoNaoRealizacaoVisita" FromRole="MotivoNaoRealizacaoVisita" ToRole="Visita" />
+        </EntityType>
+        <EntityType Name="OrigemDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_OrigemDemanda" FromRole="OrigemDemanda" ToRole="Demanda" />
+        </EntityType>
+        <EntityType Name="Perfil">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NomePerfil" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="DataCadatro" Type="DateTime" Precision="3" />
+          <Property Name="Privilegio" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_Usuario_Perfil" FromRole="Perfil" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="PrazoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="IdStatus" Type="Int32" />
+          <Property Name="IdDemanda" Type="Guid" />
+          <Property Name="DataAlteracaoStatus" Type="DateTime" Precision="3" />
+          <Property Name="PrazoAtendimento" Type="DateTime" Precision="3" />
+          <Property Name="Justificativa" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_PrazoDemanda_Demanda" FromRole="PrazoDemanda" ToRole="Demanda" />
+          <NavigationProperty Name="StatusDemanda" Relationship="Domain.Entity.FK_PrazoDemanda_StatusDemanda" FromRole="PrazoDemanda" ToRole="StatusDemanda" />
+        </EntityType>
+        <EntityType Name="PrioridadeDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_PrioridadeDemanda" FromRole="PrioridadeDemanda" ToRole="Demanda" />
+        </EntityType>
+        <EntityType Name="StatusDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="StatusAtendimento" Type="Boolean" />
+          <NavigationProperty Name="PrazoDemanda" Relationship="Domain.Entity.FK_PrazoDemanda_StatusDemanda" FromRole="StatusDemanda" ToRole="PrazoDemanda" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TipoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="PrazoAtendimento" Type="Time" Precision="7" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_TipoDemanda" FromRole="TipoDemanda" ToRole="Demanda" />
+          <NavigationProperty Name="UsuarioResponsavel_TipoDemanda" Relationship="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_TipoDemanda" FromRole="TipoDemanda" ToRole="UsuarioResponsavel_TipoDemanda" />
+        </EntityType>
+        <EntityType Name="TipoVisita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Descricao" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Visita" Relationship="Domain.Entity.FK_Visita_TipoVisita" FromRole="TipoVisita" ToRole="Visita" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NomeUsuario" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Login" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Senha" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="DataCadastro" Type="DateTime" Precision="3" />
+          <Property Name="IdPerfil" Type="Int32" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="DataAtualizacao" Type="DateTime" Precision="3" />
+          <Property Name="IdGCM" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="Demanda" Relationship="Domain.Entity.FK_Demanda_Usuario" FromRole="Usuario" ToRole="Demanda" />
+          <NavigationProperty Name="Evento" Relationship="Domain.Entity.FK_Evento_Usuario" FromRole="Usuario" ToRole="Evento" />
+          <NavigationProperty Name="Localizacao" Relationship="Domain.Entity.FK_Localizacao_Usuario" FromRole="Usuario" ToRole="Localizacao" />
+          <NavigationProperty Name="LocalizacaoHistorico" Relationship="Domain.Entity.FK_LocalizacaoHistorico_Usuario" FromRole="Usuario" ToRole="LocalizacaoHistorico" />
+          <NavigationProperty Name="Perfil" Relationship="Domain.Entity.FK_Usuario_Perfil" FromRole="Usuario" ToRole="Perfil" />
+          <NavigationProperty Name="UsuarioResponsavel_TipoDemanda" Relationship="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_Usuario" FromRole="Usuario" ToRole="UsuarioResponsavel_TipoDemanda" />
+          <NavigationProperty Name="Visita" Relationship="Domain.Entity.FK_Visita_Usuario" FromRole="Usuario" ToRole="Visita" />
+        </EntityType>
+        <EntityType Name="UsuarioResponsavel_TipoDemanda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="IdUsuarioResponsavel" Type="Int32" />
+          <Property Name="IdTipoDemanda" Type="Int32" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="TipoDemanda" Relationship="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_TipoDemanda" FromRole="UsuarioResponsavel_TipoDemanda" ToRole="TipoDemanda" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_Usuario" FromRole="UsuarioResponsavel_TipoDemanda" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Visita">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="IdDomicilio" Type="Guid" />
+          <Property Name="DataAgendamento" Type="DateTime" Precision="3" />
+          <Property Name="DataHoraVisita" Type="DateTime" Precision="3" />
+          <Property Name="Latitude" Type="Double" />
+          <Property Name="Longitude" Type="Double" />
+          <Property Name="IdTipoVisita" Type="Int32" />
+          <Property Name="Realizada" Type="Boolean" />
+          <Property Name="IdMotivoNaoRealizacao" Type="Int32" />
+          <Property Name="RowVersion" Type="Binary" MaxLength="8" FixedLength="true" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="IdUsuario" Type="Int32" />
+          <Property Name="Excluido" Type="Boolean" />
+          <NavigationProperty Name="Domicilio" Relationship="Domain.Entity.FK_Visita_Domicilio" FromRole="Visita" ToRole="Domicilio" />
+          <NavigationProperty Name="MotivoNaoRealizacaoVisita" Relationship="Domain.Entity.FK_Visita_MotivoNaoRealizacaoVisita" FromRole="Visita" ToRole="MotivoNaoRealizacaoVisita" />
+          <NavigationProperty Name="TipoVisita" Relationship="Domain.Entity.FK_Visita_TipoVisita" FromRole="Visita" ToRole="TipoVisita" />
+          <NavigationProperty Name="Usuario" Relationship="Domain.Entity.FK_Visita_Usuario" FromRole="Visita" ToRole="Usuario" />
+        </EntityType>
+        <Association Name="FK_Bairro_Cidade">
+          <End Role="Cidade" Type="Domain.Entity.Cidade" Multiplicity="0..1" />
+          <End Role="Bairro" Type="Domain.Entity.Bairro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cidade">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Bairro">
+              <PropertyRef Name="IdCidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Endereco_Bairro">
+          <End Role="Bairro" Type="Domain.Entity.Bairro" Multiplicity="0..1" />
+          <End Role="Endereco" Type="Domain.Entity.Endereco" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bairro">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Endereco">
+              <PropertyRef Name="IdBairro" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cidade_Estado">
+          <End Role="Estado" Type="Domain.Entity.Estado" Multiplicity="0..1" />
+          <End Role="Cidade" Type="Domain.Entity.Cidade" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Estado">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cidade">
+              <PropertyRef Name="IdEstado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Endereco_Cidade">
+          <End Role="Cidade" Type="Domain.Entity.Cidade" Multiplicity="0..1" />
+          <End Role="Endereco" Type="Domain.Entity.Endereco" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cidade">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Endereco">
+              <PropertyRef Name="IdCidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cliente_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Domicilio" Multiplicity="0..1" />
+          <End Role="Cliente" Type="Domain.Entity.Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cliente">
+              <PropertyRef Name="IdDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Cliente">
+          <End Role="Cliente" Type="Domain.Entity.Cliente" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Eleitor_EstadoCivil">
+          <End Role="EstadoCivil" Type="Domain.Entity.EstadoCivil" Multiplicity="0..1" />
+          <End Role="Cliente" Type="Domain.Entity.Cliente" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EstadoCivil">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Cliente">
+              <PropertyRef Name="IdEstadoCivil" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Evento_Cliente">
+          <End Role="Cliente" Type="Domain.Entity.Cliente" Multiplicity="0..1" />
+          <End Role="Evento" Type="Domain.Entity.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="IdCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Domicilio" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_OrigemDemanda">
+          <End Role="OrigemDemanda" Type="Domain.Entity.OrigemDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrigemDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdOrigem" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_PrioridadeDemanda">
+          <End Role="PrioridadeDemanda" Type="Domain.Entity.PrioridadeDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrioridadeDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdPrioridade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_TipoDemanda">
+          <End Role="TipoDemanda" Type="Domain.Entity.TipoDemanda" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="IdTipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Demanda_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Demanda">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrazoDemanda_Demanda">
+          <End Role="Demanda" Type="Domain.Entity.Demanda" Multiplicity="0..1" />
+          <End Role="PrazoDemanda" Type="Domain.Entity.PrazoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Demanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrazoDemanda">
+              <PropertyRef Name="IdDemanda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Domicilio_Endereco">
+          <End Role="Endereco" Type="Domain.Entity.Endereco" Multiplicity="0..1" />
+          <End Role="Domicilio" Type="Domain.Entity.Domicilio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Endereco">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Domicilio">
+              <PropertyRef Name="IdEndereco" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_Domicilio">
+          <End Role="Domicilio" Type="Domain.Entity.Domicilio" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Domicilio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdDomicilio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Evento_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="Evento" Type="Domain.Entity.Evento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Evento">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Localizacao_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="Localizacao" Type="Domain.Entity.Localizacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Localizacao">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LocalizacaoHistorico_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="LocalizacaoHistorico" Type="Domain.Entity.LocalizacaoHistorico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LocalizacaoHistorico">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Menu_Menu">
+          <End Role="Menu" Type="Domain.Entity.Menu" Multiplicity="0..1" />
+          <End Role="Menu1" Type="Domain.Entity.Menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Menu1">
+              <PropertyRef Name="CodigoPai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_MotivoNaoRealizacaoVisita">
+          <End Role="MotivoNaoRealizacaoVisita" Type="Domain.Entity.MotivoNaoRealizacaoVisita" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MotivoNaoRealizacaoVisita">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdMotivoNaoRealizacao" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usuario_Perfil">
+          <End Role="Perfil" Type="Domain.Entity.Perfil" Multiplicity="0..1" />
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Perfil">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="IdPerfil" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrazoDemanda_StatusDemanda">
+          <End Role="StatusDemanda" Type="Domain.Entity.StatusDemanda" Multiplicity="0..1" />
+          <End Role="PrazoDemanda" Type="Domain.Entity.PrazoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StatusDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrazoDemanda">
+              <PropertyRef Name="IdStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsuarioResponsavel_TipoDemanda_TipoDemanda">
+          <End Role="TipoDemanda" Type="Domain.Entity.TipoDemanda" Multiplicity="0..1" />
+          <End Role="UsuarioResponsavel_TipoDemanda" Type="Domain.Entity.UsuarioResponsavel_TipoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoDemanda">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsuarioResponsavel_TipoDemanda">
+              <PropertyRef Name="IdTipoDemanda" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_TipoVisita">
+          <End Role="TipoVisita" Type="Domain.Entity.TipoVisita" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoVisita">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdTipoVisita" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UsuarioResponsavel_TipoDemanda_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="UsuarioResponsavel_TipoDemanda" Type="Domain.Entity.UsuarioResponsavel_TipoDemanda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UsuarioResponsavel_TipoDemanda">
+              <PropertyRef Name="IdUsuarioResponsavel" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Visita_Usuario">
+          <End Role="Usuario" Type="Domain.Entity.Usuario" Multiplicity="0..1" />
+          <End Role="Visita" Type="Domain.Entity.Visita" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Visita">
+              <PropertyRef Name="IdUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DomainEntityStoreContainer" CdmEntityContainer="WebEleitores2Entities">
+          <EntitySetMapping Name="Bairro">
+            <EntityTypeMapping TypeName="Domain.Entity.Bairro">
+              <MappingFragment StoreEntitySet="Bairro">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IdCidade" ColumnName="IdCidade" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cidade">
+            <EntityTypeMapping TypeName="Domain.Entity.Cidade">
+              <MappingFragment StoreEntitySet="Cidade">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IdEstado" ColumnName="IdEstado" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="Domain.Entity.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+                <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+                <ScalarProperty Name="IdEstadoCivil" ColumnName="IdEstadoCivil" />
+                <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+                <ScalarProperty Name="Ativo" ColumnName="Ativo" />
+                <ScalarProperty Name="Profissao" ColumnName="Profissao" />
+                <ScalarProperty Name="CodigoCadastro" ColumnName="CodigoCadastro" />
+                <ScalarProperty Name="Vip" ColumnName="Vip" />
+                <ScalarProperty Name="Sindico" ColumnName="Sindico" />
+                <ScalarProperty Name="IdDomicilio" ColumnName="IdDomicilio" />
+                <ScalarProperty Name="Excluido" ColumnName="Excluido" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="TelefoneResidencial" ColumnName="TelefoneResidencial" />
+                <ScalarProperty Name="TelefoneComercial" ColumnName="TelefoneComercial" />
+                <ScalarProperty Name="Celular1" ColumnName="Celular1" />
+                <ScalarProperty Name="Celular2" ColumnName="Celular2" />
+                <ScalarProperty Name="DataAtualizacao" ColumnName="DataAtualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Demanda">
+            <EntityTypeMapping TypeName="Domain.Entity.Demanda">
+              <MappingFragment StoreEntitySet="Demanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="IdPrioridade" ColumnName="IdPrioridade" />
+                <ScalarProperty Name="IdOrigem" ColumnName="IdOrigem" />
+                <ScalarProperty Name="IdTipo" ColumnName="IdTipo" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+                <ScalarProperty Name="Excluido" ColumnName="Excluido" />
+                <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+                <ScalarProperty Name="idDomicilio" ColumnName="idDomicilio" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Domicilio">
+            <EntityTypeMapping TypeName="Domain.Entity.Domicilio">
+              <MappingFragment StoreEntitySet="Domicilio">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Numero" ColumnName="Numero" />
+                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+                <ScalarProperty Name="IdEndereco" ColumnName="IdEndereco" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Endereco">
+            <EntityTypeMapping TypeName="Domain.Entity.Endereco">
+              <MappingFragment StoreEntitySet="Endereco">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="IdCidade" ColumnName="IdCidade" />
+                <ScalarProperty Name="IdBairro" ColumnName="IdBairro" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Estado">
+            <EntityTypeMapping TypeName="Domain.Entity.Estado">
+              <MappingFragment StoreEntitySet="Estado">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Sigla" ColumnName="Sigla" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EstadoCivil">
+            <EntityTypeMapping TypeName="Domain.Entity.EstadoCivil">
+              <MappingFragment StoreEntitySet="EstadoCivil">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Evento">
+            <EntityTypeMapping TypeName="Domain.Entity.Evento">
+              <MappingFragment StoreEntitySet="Evento">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Localizacao">
+            <EntityTypeMapping TypeName="Domain.Entity.Localizacao">
+              <MappingFragment StoreEntitySet="Localizacao">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="DataHora" ColumnName="DataHora" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+                <ScalarProperty Name="DescricaoEndereco" ColumnName="DescricaoEndereco" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LocalizacaoHistorico">
+            <EntityTypeMapping TypeName="Domain.Entity.LocalizacaoHistorico">
+              <MappingFragment StoreEntitySet="LocalizacaoHistorico">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="DataHora" ColumnName="DataHora" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Menu">
+            <EntityTypeMapping TypeName="Domain.Entity.Menu">
+              <MappingFragment StoreEntitySet="Menu">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NomeModulo" ColumnName="NomeModulo" />
+                <ScalarProperty Name="Sequencia" ColumnName="Sequencia" />
+                <ScalarProperty Name="CodigoPai" ColumnName="CodigoPai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MotivoNaoRealizacaoVisita">
+            <EntityTypeMapping TypeName="Domain.Entity.MotivoNaoRealizacaoVisita">
+              <MappingFragment StoreEntitySet="MotivoNaoRealizacaoVisita">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrigemDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.OrigemDemanda">
+              <MappingFragment StoreEntitySet="OrigemDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Perfil">
+            <EntityTypeMapping TypeName="Domain.Entity.Perfil">
+              <MappingFragment StoreEntitySet="Perfil">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NomePerfil" ColumnName="NomePerfil" />
+                <ScalarProperty Name="DataCadatro" ColumnName="DataCadatro" />
+                <ScalarProperty Name="Privilegio" ColumnName="Privilegio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrazoDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.PrazoDemanda">
+              <MappingFragment StoreEntitySet="PrazoDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdStatus" ColumnName="IdStatus" />
+                <ScalarProperty Name="IdDemanda" ColumnName="IdDemanda" />
+                <ScalarProperty Name="DataAlteracaoStatus" ColumnName="DataAlteracaoStatus" />
+                <ScalarProperty Name="PrazoAtendimento" ColumnName="PrazoAtendimento" />
+                <ScalarProperty Name="Justificativa" ColumnName="Justificativa" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrioridadeDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.PrioridadeDemanda">
+              <MappingFragment StoreEntitySet="PrioridadeDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StatusDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.StatusDemanda">
+              <MappingFragment StoreEntitySet="StatusDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+                <ScalarProperty Name="StatusAtendimento" ColumnName="StatusAtendimento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Domain.Entity.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.TipoDemanda">
+              <MappingFragment StoreEntitySet="TipoDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="PrazoAtendimento" ColumnName="PrazoAtendimento" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoVisita">
+            <EntityTypeMapping TypeName="Domain.Entity.TipoVisita">
+              <MappingFragment StoreEntitySet="TipoVisita">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuario">
+            <EntityTypeMapping TypeName="Domain.Entity.Usuario">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NomeUsuario" ColumnName="NomeUsuario" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Senha" ColumnName="Senha" />
+                <ScalarProperty Name="DataCadastro" ColumnName="DataCadastro" />
+                <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DataAtualizacao" ColumnName="DataAtualizacao" />
+                <ScalarProperty Name="IdGCM" ColumnName="IdGCM" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UsuarioResponsavel_TipoDemanda">
+            <EntityTypeMapping TypeName="Domain.Entity.UsuarioResponsavel_TipoDemanda">
+              <MappingFragment StoreEntitySet="UsuarioResponsavel_TipoDemanda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdUsuarioResponsavel" ColumnName="IdUsuarioResponsavel" />
+                <ScalarProperty Name="IdTipoDemanda" ColumnName="IdTipoDemanda" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Visita">
+            <EntityTypeMapping TypeName="Domain.Entity.Visita">
+              <MappingFragment StoreEntitySet="Visita">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdDomicilio" ColumnName="IdDomicilio" />
+                <ScalarProperty Name="DataAgendamento" ColumnName="DataAgendamento" />
+                <ScalarProperty Name="DataHoraVisita" ColumnName="DataHoraVisita" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="IdTipoVisita" ColumnName="IdTipoVisita" />
+                <ScalarProperty Name="Realizada" ColumnName="Realizada" />
+                <ScalarProperty Name="IdMotivoNaoRealizacao" ColumnName="IdMotivoNaoRealizacao" />
+                <ScalarProperty Name="RowVersion" ColumnName="RowVersion" />
+                <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+                <ScalarProperty Name="Excluido" ColumnName="Excluido" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Nenhum" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

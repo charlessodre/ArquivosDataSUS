@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5a3d5e727dd3450a960feb7ec77bca11" Name="Diagrama1">
+        <EntityTypeShape EntityType="Domain.Entity.Bairro" Width="1.5" PointX="1.5" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Cidade" Width="1.5" PointX="1.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Cliente" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Demanda" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Domicilio" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Endereco" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Estado" Width="1.5" PointX="1.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.EstadoCivil" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Evento" Width="1.5" PointX="8.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Localizacao" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.LocalizacaoHistorico" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Menu" Width="1.5" PointX="5.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.MotivoNaoRealizacaoVisita" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.OrigemDemanda" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Perfil" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.PrazoDemanda" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.PrioridadeDemanda" Width="1.5" PointX="3" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.StatusDemanda" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.TipoDemanda" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.TipoVisita" Width="1.5" PointX="6" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Usuario" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.UsuarioResponsavel_TipoDemanda" Width="1.5" PointX="8.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Domain.Entity.Visita" Width="1.5" PointX="8.25" PointY="15.875" IsExpanded="true" />
+        <AssociationConnector Association="Domain.Entity.FK_Bairro_Cidade" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Endereco_Bairro" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Cidade_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Endereco_Cidade" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Cliente_Domicilio" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Eleitor_EstadoCivil" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Evento_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_Domicilio" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_OrigemDemanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_PrioridadeDemanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_TipoDemanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Demanda_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_PrazoDemanda_Demanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Domicilio_Endereco" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Visita_Domicilio" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Evento_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Localizacao_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_LocalizacaoHistorico_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Menu_Menu" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Visita_MotivoNaoRealizacaoVisita" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Usuario_Perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_PrazoDemanda_StatusDemanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_TipoDemanda" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Visita_TipoVisita" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_UsuarioResponsavel_TipoDemanda_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Domain.Entity.FK_Visita_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

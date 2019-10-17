@@ -1,0 +1,1 @@
+2015-04-10 17:07:29.9092|ERROR|ArquivosDataSUS.BaseForm|Ocorreu um erro na aplicaçao.( Nao foi possível localizar uma parte do caminho 'C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InterfarceUsuario\ArquivosDataSUS\bin\Debug\icones\iconeExc.ico'. ) - 10/04/2015 17:07:29

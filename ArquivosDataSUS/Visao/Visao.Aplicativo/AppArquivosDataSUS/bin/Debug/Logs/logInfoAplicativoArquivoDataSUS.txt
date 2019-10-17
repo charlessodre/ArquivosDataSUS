@@ -1,0 +1,72 @@
+2015-04-14 14:01:42.3982|INFO|Infrastructure.Common.Log|Iniciando o Agendamento do sistema. - 14/04/2015 14:01:42
+2015-04-14 14:01:42.4987|INFO|Infrastructure.Common.Log|Iniciando a execuçao. - 14/04/2015 14:01:42
+2015-04-14 14:01:42.5234|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos RD iniciada.----------------- - 14/04/2015 14:01:42
+2015-04-14 14:01:45.4005|INFO|Infrastructure.Common.Log|Busca de arquivos RD Finalizada. - 14/04/2015 14:01:45
+2015-04-14 14:01:45.4005|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:45
+2015-04-14 14:01:45.5545|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:45
+2015-04-14 14:01:46.5022|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.5229|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.5385|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.5541|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.6006|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.6006|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.6389|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos RJ iniciada.----------------- - 14/04/2015 14:01:46
+2015-04-14 14:01:46.9243|INFO|Infrastructure.Common.Log|Busca de arquivos RJ Finalizada. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.9555|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:46
+2015-04-14 14:01:46.9979|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:46
+2015-04-14 14:01:48.0238|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.0551|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.0707|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.0985|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.1076|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.1388|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.1545|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos PA iniciada.----------------- - 14/04/2015 14:01:48
+2015-04-14 14:01:48.7652|INFO|Infrastructure.Common.Log|Busca de arquivos PA Finalizada. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.7961|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:48
+2015-04-14 14:01:48.8228|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:48
+2015-04-14 14:01:50.1384|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.1696|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.1934|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.1934|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.2232|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.2544|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.3383|INFO|Infrastructure.Common.Log|Fim da execuçao. - 14/04/2015 14:01:50
+2015-04-14 14:01:50.3383|INFO|Infrastructure.Common.Log|Tempo total de execuçao: 00:00:07.8211605
+2015-04-14 14:01:50.3539|INFO|Infrastructure.Common.Log|----------------------------------------------------------------------------------
+2015-04-14 14:01:50.3539|INFO|Infrastructure.Common.Log|Finalizando o Agendamento do sistema. - 14/04/2015 14:01:50
+2015-04-14 14:01:52.8387|INFO|Infrastructure.Common.Log|Iniciando o Agendamento do sistema. - 14/04/2015 14:01:52
+2015-04-14 14:01:53.3910|INFO|Infrastructure.Common.Log|Finalizando o Agendamento do sistema. - 14/04/2015 14:01:53
+2015-04-14 14:01:53.4228|INFO|Infrastructure.Common.Log|Iniciando a execuçao. - 14/04/2015 14:01:53
+2015-04-14 14:01:53.4540|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos RD iniciada.----------------- - 14/04/2015 14:01:53
+2015-04-14 14:01:55.2393|INFO|Infrastructure.Common.Log|Busca de arquivos RD Finalizada. - 14/04/2015 14:01:55
+2015-04-14 14:01:55.2549|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:55
+2015-04-14 14:01:55.2902|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:55
+2015-04-14 14:01:56.4230|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.4543|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.4699|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.5008|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.5236|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.5392|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.5548|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos RJ iniciada.----------------- - 14/04/2015 14:01:56
+2015-04-14 14:01:56.9536|INFO|Infrastructure.Common.Log|Busca de arquivos RJ Finalizada. - 14/04/2015 14:01:56
+2015-04-14 14:01:56.9692|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:56
+2015-04-14 14:01:57.0071|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:57
+2015-04-14 14:01:58.0535|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.0950|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.1078|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.1235|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.1547|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.1703|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.2001|INFO|Infrastructure.Common.Log|-----------------Busca de arquivos PA iniciada.----------------- - 14/04/2015 14:01:58
+2015-04-14 14:01:58.8695|INFO|Infrastructure.Common.Log|Busca de arquivos PA Finalizada. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.9003|INFO|Infrastructure.Common.Log|Verificando novos arquivos. - 14/04/2015 14:01:58
+2015-04-14 14:01:58.9221|INFO|Infrastructure.Common.Log|Verificando arquivos modificados. - 14/04/2015 14:01:58
+2015-04-14 14:02:00.0381|INFO|Infrastructure.Common.Log|Download Iniciado. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.0537|INFO|Infrastructure.Common.Log|Download Finalizado. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.0882|INFO|Infrastructure.Common.Log|Início da conversao dos arquivos. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.1066|INFO|Infrastructure.Common.Log|Fim da conversao dos arquivos. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.1222|INFO|Infrastructure.Common.Log|Início do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.1378|INFO|Infrastructure.Common.Log|Fim do processo de salvar os arquivos no banco de dados. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.2382|INFO|Infrastructure.Common.Log|Fim da execuçao. - 14/04/2015 14:02:00
+2015-04-14 14:02:00.2382|INFO|Infrastructure.Common.Log|Tempo total de execuçao: 00:00:06.7828020
+2015-04-14 14:02:00.2539|INFO|Infrastructure.Common.Log|----------------------------------------------------------------------------------

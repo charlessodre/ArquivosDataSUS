@@ -1,0 +1,227 @@
+2015-04-14 18:38:49.3207|INFO|Infrastructure.Common.RegistroLog|%%%%%%%%%%%%%%%%%%%%%%%%%% InitializeComponent() %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2015-04-14 18:38:49.3207|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-14 18:38:49.3363|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-14 18:38:49.3832|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-14 18:38:49.3832|INFO|Infrastructure.Common.RegistroLog|Iniciando o Agendamento do sistema.
+2015-04-14 18:38:49.4769|INFO|Infrastructure.Common.RegistroLog|Próxima execuçao do Serviço. - 14/04/2015 18:38:49
+2015-04-14 18:38:49.4769|INFO|Infrastructure.Common.RegistroLog|Finalizando o Agendamento do sistema.
+2015-04-14 18:38:49.4769|INFO|Infrastructure.Common.RegistroLog|Fim da execuçao do Serviço.
+2015-04-14 18:38:49.4769|INFO|Infrastructure.Common.RegistroLog|%%%%%%%%%%%%%%%%%%%%%%%%%% InitializeComponent() %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2015-04-14 18:38:49.4925|INFO|Infrastructure.Common.RegistroLog|***************************************************************************************************************
+2015-04-14 18:38:49.4925|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-14 18:38:49.5082|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-14 18:38:49.5082|INFO|Infrastructure.Common.RegistroLog|valor das variáveis: Tipo ArquivosRD|RJ|PA Servidor: ftp.datasus.gov.br Uf: RJ
+2015-04-14 18:38:49.5082|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-14 18:38:49.5238|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RD iniciada.-----------------
+2015-04-14 18:38:51.7739|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RD Finalizada.
+2015-04-14 18:38:51.7739|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:38:51.8988|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:38:52.7583|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-14 18:38:52.7739|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-14 18:38:52.7739|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-14 18:39:40.0497|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-14 18:39:40.0654|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:39:40.0654|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:39:40.0654|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RJ iniciada.-----------------
+2015-04-14 18:39:40.3623|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RJ Finalizada.
+2015-04-14 18:39:40.3623|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:39:40.3935|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:39:41.2091|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-14 18:39:41.2091|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-14 18:39:41.2247|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-14 18:39:41.2247|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-14 18:39:41.2247|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:39:41.2247|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:39:41.2247|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos PA iniciada.-----------------
+2015-04-14 18:39:41.4884|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos PA Finalizada.
+2015-04-14 18:39:41.4884|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:39:41.5040|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:41:02.0274|INFO|Infrastructure.Common.RegistroLog|%%%%%%%%%%%%%%%%%%%%%%%%%% InitializeComponent() %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2015-04-14 18:41:02.0431|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-14 18:41:02.0587|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-14 18:41:02.1056|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-14 18:41:02.1056|INFO|Infrastructure.Common.RegistroLog|Iniciando o Agendamento do sistema.
+2015-04-14 18:41:02.2306|INFO|Infrastructure.Common.RegistroLog|Próxima execuçao do Serviço. - 14/04/2015 18:41:02
+2015-04-14 18:41:02.2306|INFO|Infrastructure.Common.RegistroLog|Finalizando o Agendamento do sistema.
+2015-04-14 18:41:02.2306|INFO|Infrastructure.Common.RegistroLog|Fim da execuçao do Serviço.
+2015-04-14 18:41:02.2462|INFO|Infrastructure.Common.RegistroLog|%%%%%%%%%%%%%%%%%%%%%%%%%% InitializeComponent() %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2015-04-14 18:41:02.2462|INFO|Infrastructure.Common.RegistroLog|***************************************************************************************************************
+2015-04-14 18:41:02.2462|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-14 18:41:02.2618|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-14 18:41:02.2618|INFO|Infrastructure.Common.RegistroLog|valor das variáveis: Tipo ArquivosRD|RJ|PA Servidor: ftp.datasus.gov.br Uf: RJ
+2015-04-14 18:41:02.2618|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-14 18:41:02.2618|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RD iniciada.-----------------
+2015-04-14 18:41:04.1838|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RD Finalizada.
+2015-04-14 18:41:04.1838|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:41:04.2932|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:41:15.0797|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:41:15.0953|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RJ iniciada.-----------------
+2015-04-14 18:41:15.3610|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RJ Finalizada.
+2015-04-14 18:41:15.3610|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:41:15.3922|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:41:16.2516|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos PA iniciada.-----------------
+2015-04-14 18:41:16.5641|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos PA Finalizada.
+2015-04-14 18:41:16.5641|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-14 18:41:16.5954|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:42:02.1584|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-14 18:42:20.8992|INFO|Infrastructure.Common.RegistroLog|Nenhum arquivo encontrado!
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0801.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0802.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0804.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0806.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0808.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0809.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0810.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0811.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0812.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0901.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0902.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0903.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0904.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0905.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0906.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0907.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0908.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0909.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0910.dbc
+2015-04-14 18:42:24.8417|INFO|Infrastructure.Common.RegistroLog|PARJ0911.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ0912.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1001.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1002.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1003.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1004.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1005.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1006.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1007.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1008.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1009.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1010.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1011.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1012.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1101.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1102.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1103.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1104.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1105.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1106.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1112.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1201.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1206.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1207.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1209.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1210.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1211.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1212.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1301.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1302.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1303.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1304.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1305.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1306.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1307.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1308.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1310.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1311.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1312.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1401.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1402.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1403.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1404.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1405.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1406.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1407.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1408.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1409.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1410.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1411.dbc
+2015-04-14 18:42:24.8573|INFO|Infrastructure.Common.RegistroLog|PARJ1412.dbc
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|PARJ1501.dbc
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|PARJ1502.dbc
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|-----------------------------------------------------------------------------------------------
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|Última execuçao do Serviço. - 14/04/2015 18:41:02
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|Próxima execuçao do Serviço. - 14/04/2015 18:46:02
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|-----------------------------------------------------------------------------------------------
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|Tempo total de execuçao:  - 00:01:22.6079745
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|-----------------------------------------------------------------------------------------------
+2015-04-14 18:42:24.8730|INFO|Infrastructure.Common.RegistroLog|***************************************************************************************************************
+2015-04-15 14:46:24.8504|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-15 14:46:24.8761|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-15 14:46:24.9011|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-15 14:46:24.9011|INFO|Infrastructure.Common.RegistroLog|Iniciando o Agendamento do sistema.
+2015-04-15 14:46:25.0137|INFO|Infrastructure.Common.RegistroLog|Próxima execuçao do Serviço. - 15/04/2015 14:46:25
+2015-04-15 14:46:25.0137|INFO|Infrastructure.Common.RegistroLog|Finalizando o Agendamento do sistema.
+2015-04-15 14:46:25.0167|INFO|Infrastructure.Common.RegistroLog|Fim da execuçao do Serviço.
+2015-04-15 14:46:25.0167|INFO|Infrastructure.Common.RegistroLog|***************************************************************************************************************
+2015-04-15 14:46:25.0167|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-15 14:46:25.0417|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-15 14:46:25.0417|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-15 14:46:25.0527|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RD iniciada.-----------------
+2015-04-15 14:46:27.7796|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RD Finalizada.
+2015-04-15 14:46:27.7796|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-15 14:46:27.9308|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-15 14:46:31.1849|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-15 14:46:31.1849|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-15 14:46:31.1899|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-15 14:46:31.1899|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-15 14:46:31.2241|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:46:31.2241|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:46:31.2241|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RJ iniciada.-----------------
+2015-04-15 14:46:31.9002|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RJ Finalizada.
+2015-04-15 14:46:31.9002|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-15 14:46:31.9291|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-15 14:46:35.3863|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-15 14:46:35.3863|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-15 14:46:35.3863|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-15 14:46:35.3863|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-15 14:46:35.4295|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:46:35.4295|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:47:05.2215|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos PA iniciada.-----------------
+2015-04-15 14:47:11.3065|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos PA Finalizada.
+2015-04-15 14:49:07.4571|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-15 14:49:07.4671|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-15 14:49:13.9952|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-15 14:49:13.9972|INFO|Infrastructure.Common.RegistroLog|Iniciando o Agendamento do sistema.
+2015-04-15 14:49:14.1740|INFO|Infrastructure.Common.RegistroLog|Próxima execuçao do Serviço. - 15/04/2015 14:49:14
+2015-04-15 14:49:14.1740|INFO|Infrastructure.Common.RegistroLog|Finalizando o Agendamento do sistema.
+2015-04-15 14:49:14.1740|INFO|Infrastructure.Common.RegistroLog|Fim da execuçao do Serviço.
+2015-04-15 14:49:14.1890|INFO|Infrastructure.Common.RegistroLog|***************************************************************************************************************
+2015-04-15 14:49:14.1890|INFO|Infrastructure.Common.RegistroLog|Obtendo informaçoes do Arquivo de configuraçoes.
+2015-04-15 14:49:14.2000|INFO|Infrastructure.Common.RegistroLog|Informaçoes do Arquivo de configuraçoes obtidas com sucesso!
+2015-04-15 14:49:14.2000|INFO|Infrastructure.Common.RegistroLog|Inicio da execuçao do Serviço.
+2015-04-15 14:49:14.2000|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RD iniciada.-----------------
+2015-04-15 14:49:16.3397|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RD Finalizada.
+2015-04-15 14:49:16.3407|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-15 14:49:16.4698|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-15 14:49:18.2425|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-15 14:49:18.2425|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-15 14:49:18.2495|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-15 14:49:18.2495|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-15 14:49:18.2495|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:49:18.2495|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:49:18.2495|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RJ iniciada.-----------------
+2015-04-15 14:49:18.6793|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RJ Finalizada.
+2015-04-15 14:49:18.6793|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-04-15 14:49:18.7083|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:49:20.5528|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-04-15 14:49:20.5588|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos PA iniciada.-----------------

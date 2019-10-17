@@ -1,0 +1,29 @@
+2015-07-09 10:47:13.2658|INFO|Infrastructure.Common.RegistroLog|Iniciando o Agendamento do sistema.
+2015-07-09 10:47:13.3283|INFO|Infrastructure.Common.RegistroLog|Iniciando a execuçao.
+2015-07-09 10:47:13.3595|INFO|Infrastructure.Common.RegistroLog|-----------------Busca de arquivos RD iniciada.-----------------
+2015-07-09 10:47:37.1575|INFO|Infrastructure.Common.RegistroLog|Busca de arquivos RD Finalizada.
+2015-07-09 10:47:37.1731|INFO|Infrastructure.Common.RegistroLog|Verificando novos arquivos.
+2015-07-09 10:47:37.3763|INFO|Infrastructure.Common.RegistroLog|Verificando arquivos modificados.
+2015-07-09 10:47:38.4388|INFO|Infrastructure.Common.RegistroLog|Download Iniciado.
+2015-07-09 11:06:23.9943|INFO|Infrastructure.Common.RegistroLog|Download Finalizado.
+2015-07-09 11:06:24.0099|INFO|Infrastructure.Common.RegistroLog|Início da conversao dos arquivos.
+2015-07-09 11:06:28.7600|INFO|Infrastructure.Common.RegistroLog|Fim da conversao dos arquivos.
+2015-07-09 11:06:28.7913|INFO|Infrastructure.Common.RegistroLog|Início do processo de salvar os arquivos no banco de dados.
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Fim do processo de salvar os arquivos no banco de dados.
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Falha no Download dos itens.
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|RDRJ1410.dbc
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|A conversao do arquivo falhou!
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1401.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:23 - Tamanho: 3981744
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1402.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:22 - Tamanho: 3959917
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1403.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:21 - Tamanho: 3823524
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1407.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:19 - Tamanho: 4360716
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1408.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:18 - Tamanho: 4361620
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1409.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:17 - Tamanho: 4370222
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1410.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:16 - Tamanho: 4420562
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1411.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:16 - Tamanho: 4170459
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1412.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:15 - Tamanho: 3872977
+2015-07-09 11:06:33.3044|INFO|Infrastructure.Common.RegistroLog|Arquivo: RDRJ1501.dbc - Local Destino DBC: C:\Users\charles.sodre\Downloads\FTP_TESTE\RD - Local Destino DBF: C:\Users\charles.sodre\Downloads\FTP_TESTE\DBF\RD - Data Modificaçao: 06/07/2015 10:46:14 - Tamanho: 4140570
+2015-07-09 11:06:49.4314|INFO|Infrastructure.Common.RegistroLog|Fim da execuçao.
+2015-07-09 11:06:49.4314|INFO|Infrastructure.Common.RegistroLog|Tempo total de execuçao: 00:19:36.1520040
+2015-07-09 11:06:49.4470|INFO|Infrastructure.Common.RegistroLog|----------------------------------------------------------------------------------
+2015-07-09 11:06:49.4470|INFO|Infrastructure.Common.RegistroLog|Finalizando o Agendamento do sistema.

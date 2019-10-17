@@ -1,0 +1,13 @@
+﻿Instalando o assembly 'C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.InstallLog
+   assemblypath = C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.
+Confirmando o assembly 'C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.InstallLog
+   assemblypath = C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe
+Não foi possível encontrar instaladores públicos com o atributo RunInstallerAttribute.Yes no assembly C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.
+Remova o arquivo InstallState porque não há instaladores.
